@@ -1,0 +1,414 @@
+/*
+Theme Name: MOCOM GROUP
+Theme URI: shareamuse.local/themes/mocom
+Author: the TEAM RINK
+Author URI: 
+Description: test
+Version: 1.0
+License: TEAM RINK
+License URI:
+*/
+
+body{
+    font-size:14px;
+    color: rgb(51, 51, 51);
+    box-sizing : border-box;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footersub-00{
+    color:white;
+
+}
+footer{
+    width:100%;
+}
+
+#copyright{
+    background-color: rgb(36, 35, 35);
+    color:white;
+   text-align: center;
+   height:50px;
+   padding-top: 15px;
+}
+#copyrightinner {
+    background-color: rgb(36, 35, 35);
+    color:white;
+   
+}
+#back{
+    position: absolute;
+    width:50px;
+    height: 50px;
+    top:90%;
+    left:92%;
+    border-radius: 50px;
+    background-color:rgb(241, 0, 129);
+    text-align: center;
+    line-height: 50px;
+    color:white;
+    font-size: 20px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+    position: fixed;
+    z-index: 10;
+    opacity: 0.8 ;
+    display:none;
+    cursor: pointer;
+    user-select: none;
+}
+
+header{
+ 
+    background-color: #ffffff;
+
+}
+
+#bigbox-01{
+    width:100%;
+    justify-content: center;
+   
+}
+#bigbox-02{
+    width:100%;
+    justify-content: center;
+   
+}
+#bigbox-03{
+    width:100%;
+    justify-content: center;
+   
+}
+#bigbox-04{
+    width:100%;
+    justify-content: center;
+   
+}
+#bigbox-05{
+    width:100%;
+    justify-content: center;
+   
+}
+
+
+#box004{
+    width: 100%;
+    background-color: hsla(228, 6.57%, 57.19%, 0.1);
+}
+
+#headertitle{
+    width: 70%;
+}
+li{
+    list-style: none;
+    padding:-5px;
+}
+
+#links:hover{
+    background-color: #ffffff;
+    border-bottom: 2px solid blue;
+}
+#border-01{
+    border-left: 5px solid blue;
+    padding-left: 15px;
+}
+#btnin-00{
+    color:white;
+}
+#com-01{
+    border-bottom: 5px solid blue;
+    margin-right: 3px;
+   line-height: 30px;
+}
+#com-02{
+    border-bottom: 5px solid blue;
+    margin-right: 3px;
+    
+    line-height: 30px;
+}
+#com-03{
+    border-bottom: 5px solid blue;
+    
+    line-height: 15px;
+}
+
+#pname-00{
+    margin-top:40px;
+    width:320px;
+    height: 40px;
+    border-bottom: 2px solid #0470DC;
+}
+
+#submain-00{
+    width:100%;
+    height:250px;
+    background:linear-gradient(304deg, rgb(23, 234, 217), rgb(96, 120, 234));
+    position:relative;
+}
+
+#submainp-00{
+    width:100%;
+    position: absolute;
+    text-align: center;
+    line-height: normal;
+    color:white;
+    margin-top: 100px;
+}
+#submainp-01{
+    width:100%;
+    position: absolute;
+    text-align: center;
+    margin-right: 20px;
+    color:white;
+    font-size: small;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+#submainp-03{
+    width:100%;
+    position: absolute;
+    text-align: center;
+    margin-top: 160px;
+    margin-right: 20px;
+    color:white;
+    font-size: small;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+#submainp-04{
+    width:100%;
+    position: absolute;
+    text-align: center;
+    margin-top: 160px;
+    margin-right: 20px;
+    color:white;
+    font-size: small;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+#submainp-05{
+    width:100%;
+    position: absolute;
+    text-align: center;
+    margin-top: 160px;
+    margin-right: 20px;
+    color:white;
+    font-size: small;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+#submainp-06{
+    width:100%;
+    position: absolute;
+    text-align: center;
+    margin-top: 160px;
+    margin-right: 20px;
+    color:white;
+    font-size: small;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+#subtitle01{
+    color:#0470DC;
+}
+
+#name-00{
+    width:100%;
+    display: flex;
+
+
+}
+#box-002{
+    justify-content: center;
+}
+
+
+#boxitem-00{
+    width:150px;
+    height:50px;
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    
+
+}
+#boxitem-01{
+    width:150px;
+    height:50px;
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px
+    
+}
+#boxitem-02{
+    width:150px;
+    height:50px;
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px
+   
+}
+#boxitem-03{
+    width:150px;
+    height:50px;
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px;
+
+   
+}
+#boxitem-10{
+    width:150px;
+    height:50px;
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    line-height: normal;
+}
+#a-color{
+    color:white;
+}
+
+#match-02{
+    font-family: mincyo;
+}
+
+#boxitem-00:hover{
+    opacity:0.8;
+}
+#boxitem-01:hover{
+    opacity:0.8;
+}
+#boxitem-02:hover{
+    opacity:0.8;
+}
+#boxitem-03:hover{
+    opacity:0.8;
+}
+
+
+#matchimage{
+    text-align: center;    
+}
+
+
+
+#operationtitle-00{
+    margin:10px auto;
+}
+#operationcontents-00{
+    width:100%;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding:1px;
+    word-break: normal;
+    padding-right:15px;
+}
+#operationtitle-01{
+    margin:10px auto;
+}
+#operationcontents-01{
+    width:100%;
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding:1px;
+    word-break: normal;
+    padding-right:15px;
+}
+#operationtitle-02{
+    margin:10px auto;
+}
+#operationcontents-02{
+    width:100%;
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding:1px;
+    word-break: break-all;
+    padding-right:15px;
+}
+
+#companybox{
+    border-bottom: 1px solid #b6b6b6;
+}
+
+
+#match-00{
+    color:#0470DC;
+}
+
+#box003{
+    background-color: hsla(228, 6.57%, 57.19%, 0.1);
+    width:100%
+}
+
+#vision{
+width:100%;
+}
+
+#vimage{
+    width: 100%;
+    text-align: center;
+}
+
+
+input{
+    width:300px;
+    height: 45px;
+    margin-top: 5zsdpx;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #b6b6b6;
+    padding-left:5px;
+}
+label{
+    margin-top:2px;
+}
+textarea{
+    width:300px;
+    height:100px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #b6b6b6;
+    padding-left:5px;
+    
+}
+
+
+#contacttitle{
+   text-align: center;
+}
+
+table{
+    table-layout:fixed;
+    width:100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+     justify-content: center;
+     padding:-30px;
+    }
+  
+  
+  #back{
+    position: absolute;
+    width:40px;
+    height: 40px;
+    top:90%;
+    left:80%;
+    border-radius: 40px;
+    background-color:rgb(241, 0, 129);
+    text-align: center;
+    line-height: 40px;
+    color:white;
+    font-size: 20px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+    position: fixed;
+    z-index: 10;
+    opacity: 0.4 ;
+    display:none;
+    cursor: pointer;
+    user-select: none;
+}
+}
