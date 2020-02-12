@@ -47,7 +47,7 @@
         <a class="nav-link w-100 m-1" id="links"  href="/index.php?page_id=40">企業情報</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link w-100 m-1" id="links" href="<?php get_page_link(); ?>/page-product.php">製品・設備</a>
+        <a class="nav-link w-100 m-1" id="links" href="/index.php?page_id=47">製品・設備</a>
       </li>
       <button type="button" class="btn btn-primary ml-3" onclick="location. href='/index.php?page_id=44'">
         お問い合わせ
