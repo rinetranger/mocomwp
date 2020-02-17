@@ -18,32 +18,32 @@
           <h7 id="footersub-000"><a href="<?php echo home_url();?>" id="footersub-00">Home</a></h7>
         </div>
         <div class="col-lg-2 col-sm-12">
-          <h7 id="footersub-001" class="mb-5"><a href="page-about.php" id="footersub-00">事業内容</a></h7>
+          <h7 id="footersub-001" class="mb-5"><a href="/page-about" id="footersub-00">事業内容</a></h7>
 
           <ul class="list-unstyled text-small">
-            <li class="mt-2"><a class="text-muted" href="page-about.php#bigbox-01">株式会社モコム</a></li>
-            <li class="mt-2"><a class="text-muted" href="page-about.php#bigbox-02">株式会社PDP</a></li>
-            <li class="mt-2"><a class="text-muted" href="page-about.php#bigbox-03">GMTI</a></li>
-
-          </ul>
-        </div>
-        <div class="col-lg-2 col-sm-12">
-          <h7 id="footersub-002" class="mb-5"><a href="page-product.php" id="footersub-00">製品・設備</a></h7>
-          <ul class="list-unstyled text-small">
-            <li class="mt-2"><a class="text-muted" href="page-product.php#box001">製品情報</a></li>
-            <li class="mt-2"><a class="text-muted" href="page-product.php#box002">設備情報</a></li>
+            <li class="mt-2"><a class="text-muted" href="/page-about#bigbox-01">株式会社モコム</a></li>
+            <li class="mt-2"><a class="text-muted" href="/page-about#bigbox-02">株式会社PDP</a></li>
+            <li class="mt-2"><a class="text-muted" href="/page-about#bigbox-03">GMTI</a></li>
 
           </ul>
         </div>
         <div class="col-lg-2 col-sm-12">
-          <h7 id="footersub-003" class="mb-5"><a href="page-info.php" id="footersub-00">企業情報</a></h7>
+          <h7 id="footersub-002" class="mb-5"><a href="page-product" id="footersub-00">製品・設備</a></h7>
           <ul class="list-unstyled text-small">
-            <li class="mt-2"><a class="text-muted" href="page-info.php#box001">社長メッセージ</a></li>
-            <li class="mt-2"><a class="text-muted" href="page-info.php#box002">経営理念</a></li>
-            <li class="mt-2"><a class="text-muted" href="page-info.php#box005">会社概要</a></li>
-            <li class="mt-2"><a class="text-muted" href="page-info.php#box006">沿革</a></li>
-            <li class="mt-2"><a class="text-muted" href="page-info.php#box007">主要取引先</a></li>
-            <li class="mt-2"><a class="text-muted" href="page-contact.php">お問合せ</a></li>
+            <li class="mt-2"><a class="text-muted" href="page-product#box001">製品情報</a></li>
+            <li class="mt-2"><a class="text-muted" href="page-product#box002">設備情報</a></li>
+
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-12">
+          <h7 id="footersub-003" class="mb-5"><a href="page-info" id="footersub-00">企業情報</a></h7>
+          <ul class="list-unstyled text-small">
+            <li class="mt-2"><a class="text-muted" href="page-info#box001">社長メッセージ</a></li>
+            <li class="mt-2"><a class="text-muted" href="page-info#box002">経営理念</a></li>
+            <li class="mt-2"><a class="text-muted" href="page-info#box005">会社概要</a></li>
+            <li class="mt-2"><a class="text-muted" href="page-info#box006">沿革</a></li>
+            <li class="mt-2"><a class="text-muted" href="page-info#box007">主要取引先</a></li>
+            <li class="mt-2"><a class="text-muted" href="contact">お問合せ</a></li>
           </ul>
         </div>
       </div>
@@ -63,12 +63,12 @@
   <?php wp_enqueue_script('jquery'); //jQueryの読み込み?>
   <!-- Bootstrap tooltips -->
   
-  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/popper.min.js"></script>
   <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <script type="text/javascript" src="js/function.js"></script>
+  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/mdb.min.js"></script>
+  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/function.js"></script>
 </body>
 
 </html>

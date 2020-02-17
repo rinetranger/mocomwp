@@ -2,15 +2,15 @@
 /*
 Template Name: お問い合わせ
 */
- get_header("4")?>
-
+ get_header("5")?>
+<i class="fas fa-angle-double-up" id="back" onclick="back()"></i>
 <div class="countainer-fluid" id="submain-00">
     <h1 id="submainp-00">お問い合わせ</h1>
     <h5 id="submainp-06">CONTACT</h5>
   </div>
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="./index.php">Home</a></li>
+      <li class="breadcrumb-item"><a href=".index.php">Home</a></li>
       <li class="breadcrumb-item active" aria-current="page">製品・設備</li>
     </ol>
   </nav>
@@ -33,7 +33,11 @@ Template Name: お問い合わせ
             <div class="form">
               
                 <div class="row">
-                  <form id="email-form" name="email-form" data-name="Email Form" class="form">
+
+                      <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+                      <?php the_content(); ?>
+                      <?php endwhile; endif; ?>
+                      <!-- <form id="email-form" name="email-form" data-name="Email Form" class="form">
                     <div><label for="name-2" class="paragraph-light thick">お名前</label><br/>
                       <input type="text" maxlength="256"
                         required="" id="node-2" placeholder="例 : モコム 太郎" ms-field="first-name"
@@ -55,7 +59,7 @@ Template Name: お問い合わせ
                         placeholder="お問い合わせ内容についてご入力ください。" maxlength="5000" id="field-3" name="field-3" required=""
                         class="textarea w-input"></textarea></div><input type="submit" value="送信する"
                       data-wait="Please wait..." class="btn btn-success">
-                  </form>
+                  </form> -->
                   
                 </div>
   
@@ -96,7 +100,12 @@ Template Name: お問い合わせ
     </div>
   </div>
   </div>
-<?php get_footer();
+  <script type="text/javascript">
+   function back(){
+      window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+    }
+  </script>
+<?php get_footer("5");
   
 
 

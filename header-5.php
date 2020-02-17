@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title><?php bloginfo('name'); ?></title>
-  <!-- Font Awesome -->
   <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
@@ -23,6 +23,7 @@
 </head>
 
 <body>
+  
 
 
   <!-- Start your project here-->
@@ -37,7 +38,7 @@
 
       <ul class="navbar-nav justify-content-end" id="ulsec">
       <li class="w-15 nav-item ">
-      <a class="nav-link w-100 m-1" id="linksactive" href="<?php echo home_url();?>">Home<span class="sr-only">(current)</span></a>
+      <a class="nav-link w-100 m-1" id="links" href="<?php echo home_url();?>">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="w-15 nav-item">
       <a class="nav-link w-100  m-1" id="links" href="page-about">事業内容</a>
