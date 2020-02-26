@@ -25,15 +25,18 @@ Template Name: 事業内容
           <ul class="list-group list-group-horizontal-lg w-100">
 
             <div class="col-lg-4 col-sm-12">
-              <li class=" btn btn-primary list-group-item m-2" id="boxitem-00" onclick="move1()">株式会社モコム</li>
+              
+              <a class="btn purple-gradient list-group-item m-2" id="boxitem-00" onclick="move1()"><i class="fas fa-home"></i> 株式会社モコム</a>
             </div>
 
             <div class="col-lg-4 col-sm-12">
-              <li class="btn btn-primary list-group-item m-2" id="boxitem-01" onclick="move2()">株式会社PDP</li>
+              
+              <a class="btn purple-gradient list-group-item m-2" id="boxitem-01" onclick="move2()"><i class="fas fa-home"></i> 株式会社PDP</a>
             </div>
 
             <div class="col-lg-4 col-sm-12">
-              <li class=" btn btn-primary list-group-item m-2" id="boxitem-10" onclick="move3()">GLOBAL MOCOM TRSNDCENDING INC.</li>
+             
+              <a class="btn purple-gradient list-group-item m-2" id="boxitem-10" onclick="move1()"><i class="fas fa-home"></i> GLOBAL MOCOM TRSNDCENDING INC.</a>
             </div>
 
           </ul>
@@ -154,7 +157,7 @@ Template Name: 事業内容
       <div class="col-lg-4">
         <div class="col-12-sm">
           <img src="<?php bloginfo('template_directory'); ?>/images/mold-p1-500.jpeg" width="330px" height="200px">
-          <h3 id="operationtitle-01">板金加工</h3>
+          <h3 id="operationtitle-01">板金加工・塗装印刷</h3>
           <p id="operationcontents-01">
             タレットパンチ、プレスブレーキ、プレス、各種溶接機、リン酸亜鉛及びリン酸マンガン被膜処理、粉体・液体塗装、シルク印刷などほぼすべての板金加工設備を社内に有し、お客様のご要望にワンストップで対応致します。多品種の出荷にも対応するノウハウに長けているため、多品種少量のデイリー出荷も可能です。
           </p>
@@ -163,7 +166,7 @@ Template Name: 事業内容
       <div class="col-lg-4">
         <div class="col-12-sm">
           <img src="<?php bloginfo('template_directory'); ?>/images/rmfactory2-p-500.jpeg" width="330px" height="200px">
-          <h3 id="operationtitle-02">樹脂成型</h3>
+          <h3 id="operationtitle-02">樹脂成型・塗装印刷</h3>
           <p id="operationcontents-02">
             20トンから450トンまでの縦型含む40台の成型機を保有し、寸法精度の厳しいメカユニットの機構部品や外観部品、印刷や塗装を要する部品など、様々な用途の成形品に対応致します。特に多品種、少量品の立上げから量産品まで、金型製造、修理を含めたトータルな能力は、お客様のご期待に存分にお答えできるものと考えております。
           </p>
@@ -191,7 +194,7 @@ Template Name: 事業内容
       </div>
       <div class="col-lg-4">
         <div class="col-12-sm">
-          <img src="<?php bloginfo('template_directory'); ?>/images/original01-p-800.jpeg" width="330px" height="200px">
+          <img src="<?php bloginfo('template_directory'); ?>/images/product_EGRIP2x.jpg" width="330px" height="200px">
           <h3 id="operationtitle-02">オリジナル製品製造</h3>
           <p id="operationcontents-02">
             Eリング挿入・取外工具【EGRIP】などの生産ツール、【GMATIC】などの高強度プラスティック製品など様々な設計開発製造を行っております。いずれもこれまでの常識にとらわれない斬新な発想による製品です。またSMTライン用の基板ローダー/アンローダー装置や樹脂成型材料の自動ローディング装置、自動サンドブラスト装置など社内自動化で培ったノウハウを製品化しております。今後も、皆様の「こうしたい」を形にし、喜んで使っていただける製品を開発しながら、総合製造メーカーとしての経験とノウハウを継続して商品化し、提供してまいります。

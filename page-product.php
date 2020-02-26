@@ -20,11 +20,14 @@ get_header("4") ?>
             <ul class="list-group list-group-horizontal-lg w-100">
 
                 <div class="col-lg-6 col-sm-12">
-                    <li class=" btn btn-primary list-group-item m-2" id="boxitem-00" onclick="move1()">製品情報</li>
+ 
+                    <a class="btn purple-gradient list-group-item m-2" id="boxitem-00" onclick="move1()">製品情報</a>
                 </div>
 
                 <div class="col-lg-6 col-sm-12">
-                    <li class="btn btn-primary list-group-item m-2" id="boxitem-01" onclick="move2()">設備情報</li>
+
+                    <a class="btn purple-gradient list-group-item m-2" id="boxitem-01" onclick="move2()">設備情報</a>
+                
                 </div>
 
             </ul>
@@ -52,28 +55,25 @@ get_header("4") ?>
 </div>
 
 <div class="container" id="companybox00">
-    <h4 class="w-100 mt-5 mb-5 ml-4">委託製造</h4>
+    <h4 class="w-100 mt-5 mb-5 ml-4">オリジナル製品</h4>
     <div class="row">
       
         <div class="col-lg-4">
             <div class="col-12-sm ml-3">
-                <img src="<?php bloginfo('template_directory'); ?>/images/bankin-p-500.jpeg" width="290px" height="200px">
-                <h3 id="operationtitle-00">板金製品</h3>
-                <p id="operationcontents-00">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                  xxxxxxxxxxxxx
-                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                <img src="<?php bloginfo('template_directory'); ?>/images/product_EGRIP2x.jpg" width="290px" height="200px">
+                <h3 id="operationtitle-00">EGRIP</h3>
+                <p id="operationcontents-00">EGRIPは当社が開発した工具です。生産ツールである【EGRIP】は、Eリング挿入・取外工具です。そのほか、様々な設計開発製造を行っております。いずれもこれまでの常識にとらわれない斬新な発想による製品です。</p>
             </div>
         </div>
         <div class="col-lg-4">
             <div class="col-12-sm ml-3">
-                <img src="<?php bloginfo('template_directory'); ?>/images/product_rm2x-p-800.jpeg" width="290px" height="200px">
-                <h3 id="operationtitle-01">樹脂成型製品</h3>
-                <p id="operationcontents-01">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                  xxxxxxxxxxxxx
-                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                <img src="<?php bloginfo('template_directory'); ?>/images/-EGRIP-p-500.jpeg" width="290px" height="200px">
+                <h3 id="operationtitle-01"> GMATIC</h3>
+                <p id="operationcontents-01">GMATICは当社が開発した工具です。
+                    Eリング挿入・取外工具【EGRIP】などの生産ツール、【GMATIC】などの高強度プラスティック製品など様々な設計開発製造を行っております。いずれもこれまでの常識にとらわれない斬新な発想による製品です。またSMTライン用の基板ローダー/アンローダー装置や樹脂成型材料の自動ローディング装置、自動サンドブラスト装置など社内自動化で培ったノウハウを製品化しております。</p>
             </div>
         </div>
-        <div class="col-lg-4">
+        <!-- <div class="col-lg-4">
             <div class="col-12-sm ml-3">
                 <img src="<?php bloginfo('template_directory'); ?>/images/product_trans2x-p-800.jpeg" width="290px" height="200px">
                 <h3 id="operationtitle-02">実装組立品</h3>
@@ -81,7 +81,7 @@ get_header("4") ?>
                   xxxxxxxxxxxxx
                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
             </div>
-        </div>
+        </div> -->
 
 
     </div>
@@ -95,7 +95,7 @@ get_header("4") ?>
 </div>
 
 <div class="container" id="companybox01">
-    <h4 class="w-100 mt-5 mb-5 ml-4">オリジナル製品</h4>
+    <h4 class="w-100 mt-5 mb-5 ml-4">委託製品</h4>
                 <!-- <img src="<?php bloginfo('template_directory'); ?>/images/商品_EGRIP2x-p-800.jpeg" width="290px" height="200px">
                 <h3 id="operationtitle-00">EGRIP</h3>
                 <p id="operationcontents-00">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -192,7 +192,7 @@ wp_reset_postdata();
         <div class="col-lg-4">
             <div class="col-12-sm ml-3">
                 <img src="<?php bloginfo('template_directory'); ?>/images/bankinequip-p-500.jpeg" width="290px" height="200px">
-                <h3 id="operationtitle-00">板金加工機器</h3>
+                <h3 id="operationtitle-00">板金加工機設備</h3>
                 <p id="operationcontents-00">アマダ社製タレットパンチプレス：３台<br />
                     アマダ社製(35～50トン)プレスブレーキ：４台<br />
                     アマダ社製タッピングマシン：２台<br />
@@ -206,7 +206,7 @@ wp_reset_postdata();
         <div class="col-lg-4">
             <div class="col-12-sm ml-3">
                 <img src="<?php bloginfo('template_directory'); ?>/images/rmfactory2-p-500.jpeg" width="290px" height="200px">
-                <h3 id="operationtitle-01">樹脂成型機器</h3>
+                <h3 id="operationtitle-01">樹脂成型機設備</h3>
                 <p id="operationcontents-01">横型樹脂成型機 (20トン～450トン)：３５台<br />
                     縦型樹脂成型機 (40トン～100トン) ：５台<br />
                     (TOSHIBA・JSW・HISHIYA・NISSEI・TOYO)<br />
@@ -242,9 +242,12 @@ wp_reset_postdata();
                 <h3 id="operationtitle-00">塗装印刷機器</h3>
                 <p id="operationcontents-00">手吹き液体塗装ブース：２台<br>
                     手吹き粉体塗装ブース：３台<br>
-                    日本パーカライジング社製静電粉体塗装装置：３台<br>
+                    日本パーカライジング社製静電粉体塗装装置<br>
+                    ：３台<br>
                     半自動タンポ印刷機：２台<br>
-                    手動シルク印刷：３ライン</p>
+                    手動シルク印刷：３ライン<br>
+                    ATMA製半自動シルク印刷機：１台
+                </p>
             </div>
         </div>
         <div class="col-lg-4">
@@ -260,29 +263,19 @@ wp_reset_postdata();
             <div class="col-12-sm ml-3">
                 <img src="<?php bloginfo('template_directory'); ?>/images/mold-p2-500.jpeg" width="290px" height="200px">
                 <h3 id="operationtitle-02">金型製造修理設備</h3>
-                <p id="operationcontents-02">アマダ社製タレットパンチプレス：３台<br>
-                    アマダ社製(35～50トン)プレスブレーキ：４台<br>
-                    アマダ社製タッピングマシン：２台<br>
-                    アイダ/アマダ社製(60トン～80トン)プレス：３台<br>
-                    電元社トーア社製スポット溶接機：２台<br>
-                    サンドブラストブース：３台<br>
-                    TIG溶接機：２台<br>
-                    MIG溶接機：２台<br>
+                <p id="operationcontents-02">
+                    ワイヤーカット放電加工機<br>
+                    （三菱ファナック）：２台<br>
+                    放電加工機・細穴放電加工機<br>
+                    （三菱・ソデック）：３台<br>
+                    レーザー溶接機（１００W）：３台<br>
+                    平面研磨機、汎用旋盤、汎用フライス機<br>
+                    ：８台
                 </p>
             </div>
         </div>
         <div class="row">
 
-            <div class="col-lg-6">
-                <div class="col-12-sm ml-4">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/bankinequip-p-500.jpeg" width="290px" height="200px">
-                    <h3 id="operationtitle-00">工作機器</h3>
-                    <p id="operationcontents-00">ワイヤーカット放電加工機<br />（三菱、ファナック）：２台<br />
-                        放電加工機・細穴放電加工機<br />（三菱・ソディック）：３台<br>
-                        レーザー溶接機（１００ｗ）：３台<br>
-                        平面研磨機、汎用旋盤、汎用フライス等：８台</p>
-                </div>
-            </div>
             <div class="col-lg-6">
                 <div class="col-12-sm ml-4">
                     <img src="<?php bloginfo('template_directory'); ?>/images/mequip-p-500.jpeg" width="290px" height="200px">

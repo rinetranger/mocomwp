@@ -23,23 +23,20 @@ get_header("3") ?>
   <section>
     <ul class="list-group list-group-horizontal-lg ml-5 w-100">
       <div class="row">
-        <div class="col-sm-4 col-lg-2">
-          <li class=" btn btn-primary list-group-item" id="boxitem-00" onclick="move1()">メッセージ</li>
+        <div class="col-sm-6 col-lg-3">
+          
+          <a class="btn purple-gradient list-group-item m-2" id="boxitem-00" onclick="move1()">メッセージ</a>
         </div>
+        <div class="col-sm-6 col-lg-3">
 
-        <div class="col-sm-4 col-lg-2">
-          <li class="btn btn-primary list-group-item" id="boxitem-01" onclick="move2()">経営理念</li>
+          <a class="btn purple-gradient list-group-item m-2" id="boxitem-01" onclick="move3()">会社概要</a>
         </div>
-        <div class="col-sm-4 col-lg-2">
-          <li class="btn btn-primary list-group-item" id="boxitem-01" onclick="move3()">会社概要</li>
+        <div class="col-sm-6 col-lg-3">
+          <a class="btn purple-gradient list-group-item m-2" id="boxitem-02" onclick="move4()">沿革</a>
         </div>
-      
-      
-        <div class="col-sm-4 col-lg-2">
-          <li class=" btn btn-primary list-group-item" id="boxitem-02" onclick="move4()">沿革</li>
-        </div>
-        <div class="col-sm-4 col-lg-2">
-          <li class=" btn btn-primary list-group-item" id="boxitem-02" onclick="move5()">主要取引先</li>
+        <div class="col-sm-6 col-lg-3">
+        <a class="btn purple-gradient list-group-item m-2" id="boxitem-02" onclick="move5()">主要取引先</a>
+         
         </div>
       </div>
 </ul>
@@ -81,7 +78,7 @@ get_header("3") ?>
           <p class="mt-5">
             この2つに込めた思いは、お客様が私たちの製品・サービス１つ１つに感動していただくことにより弊社のファンになっていただきたいということです。私たちが勝手に思いこんだ製品やサービスをお客様に押し付けるのではなく、お客様が望んでいる製品・サービスをきっちりと提供できる企業を目指すことにより達成したいと考えています。そのため社員間で目指すべき方向性に相違が生じた場合には、必ずこの2つの方針に立ち返り、軌道修正しております。
           </p>
-          <h5 id="match-00" class="mt-5">3. 私達のベストな仕事で私達の幸せを築いてゆく。</h5>
+          <h5 id="match-00" class="mt-5">3. 私たちの幸せは私達のベストな仕事で築いてゆく。</h5>
           <h5 id="match-00">Build up our Happiness by our Good Work.</h5>
           <p class="mt-5">
             「幸せ」には金銭的なもの、信頼関係のある社風、学習・成長の機会がある、個性が認められなどの意味を込めております。この方針は「幸せ」は会社に与えられるものではなく、各社員が会社全体を考えながら、自分の責務を遂行するために挑戦し、最善の仕事をした結果獲得できるものであるという考え方を示しており、前記２つの方針を遂行するための根本方針となっています。
@@ -100,34 +97,34 @@ get_header("3") ?>
   </div>
 </div>
 
-<div class="container-fluid" id="box003">
-  <div class="container mt-5" id="bigbox-02">
-    <div class="row">
-      <div id="box002" class="col-lg ml-5 mt-5">
-        <div class="row-sm">
-          <div id="border-01">
-            <h1 id="title02">経営理念</h1>
-            <h6 id="subtitle01">VISION</h6>
+  <!-- <div class="container-fluid" id="box003">
+    <div class="container mt-5" id="bigbox-02">
+      <div class="row">
+        <div id="box002" class="col-lg ml-5 mt-5">
+          <div class="row-sm">
+            <div id="border-01">
+              <h1 id="title02">経営理念</h1>
+              <h6 id="subtitle01">VISION</h6>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container" id="vision">
-    <div class="row">
+    <div class="container" id="vision">
+      <div class="row">
 
-      <!-- Grid column -->
-      <div class="col mb-5 mt-5" id="vimage">
 
-        <img src="<?php bloginfo('template_directory'); ?>/images/header2x-p-800.jpeg" class="img-fluid z-depth-1" alt="Responsive image">
+        <div class="col mb-5 mt-5" id="vimage">
+
+          <img src="<?php bloginfo('template_directory'); ?>/images/header2x-p-800.jpeg" class="img-fluid z-depth-1" alt="Responsive image">
+
+        </div>
+
 
       </div>
-      <!-- Grid column -->
-
     </div>
   </div>
-</div>
-</div>
+  </div> -->
 
 <div class="container mt-5" id="bigbox-03">
   <div class="row" id="box-002">
@@ -180,7 +177,7 @@ get_header("3") ?>
       </tr>
       <tr>
         <th scope="row">株主</th>
-        <td>大杉 善信　　　町山 正成</td>
+        <td>町山 正成　　　大杉 善信</td>
 
       </tr>
       <tr>
@@ -224,7 +221,7 @@ get_header("3") ?>
       </tr>
       <tr>
         <th scope="row">株主</th>
-        <td>大杉 善信　　　町山 正成</td>
+        <td>株式会社モコム</td>
 
       </tr>
       <tr>
@@ -257,28 +254,28 @@ get_header("3") ?>
       </tr>
       <tr>
         <th scope="row">資本金</th>
-        <td>4,700フィリピンペソ</td>
+        <td>4,700万フィリピンペソ</td>
 
       </tr>
       <tr>
         <th scope="row">主要業務</th>
-        <td>成型部門樹脂成型及び塗装・印刷組立部門SMT実装<br />
-          製品組立板金部門金属部品/筐体製作及び塗装・印刷</td>
+        <td>板金加工及び塗装・印刷、樹脂成型及び塗装、SMT及び製品組立<br />
+          金型設計製造・切削加工・硝子加工</td>
 
       </tr>
       <tr>
         <th scope="row">株主</th>
-        <td>大杉 善信　　　町山 正成</td>
+        <td>株式会社モコム</td>
 
       </tr>
       <tr>
         <th scope="row">従業員数</th>
-        <td>320名</td>
+        <td>300名</td>
 
       </tr>
       <tr>
         <th scope="row">敷地面積</th>
-        <td>10,000m2</td>
+        <td>10,000平米</td>
 
       </tr>
       <tr>
@@ -291,7 +288,7 @@ get_header("3") ?>
   </table>
 </div>
 
-<div class="container-fluid" id="box004">
+<div class="container-fluid w-100" id="box004">
   <div class="container mt-5" id="bigbox-04">
     <div class="row" id="box-005">
       <div id="box006" class="col-lg ml-5">
@@ -368,9 +365,9 @@ get_header("3") ?>
     </div>
   </div>
 </div>
-<div class="container mb-5 ml-5">
+<div class="container mb-5">
   <div class="row mt-5">
-    <div class="col-lg-4">
+    <div class="col-lg-4 justify-content-lg-around">
       <div>
         <h6 id="pname-00">アルインコ（株）</h6>
       </div>
@@ -398,7 +395,7 @@ get_header("3") ?>
     </div>
     <div class="col-lg-4">
       <div>
-        <h6 id="pname-00">飯田電気工事業 (株)</h6>
+        <h6 id="pname-00">飯田電機工事業 (株)</h6>
       </div>
       <div>
         <h6 id="pname-00">NECプラットフォームズ (株)</h6>
@@ -427,11 +424,12 @@ get_header("3") ?>
         <h6 id="pname-00">(株) 石井表記</h6>
       </div>
       <div>
-        <h6 id="pname-00">(株) 光真製作所</h6>
-      </div>
-      <div>
         <h6 id="pname-00">(株) エム・コット</h6>
       </div>
+      <div>
+        <h6 id="pname-00">(株) 光真製作所</h6>
+      </div>
+      
       <div>
         <h6 id="pname-00">(株) 三球電気製作所</h6>
       </div>
@@ -447,7 +445,9 @@ get_header("3") ?>
       <div>
         <h6 id="pname-00">ミツミ電機 (株)</h6>
       </div>
+      
     </div>
+    <p class="mt-5 ml-3 mr-3">(社名については五十音順で記載しております。敬称について省略させていただきました。)</p>
   </div>
 
 </div>

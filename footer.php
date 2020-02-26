@@ -10,7 +10,8 @@
           <li class="mb-2">〒　214 - 0031</li>
           <li>神奈川県川崎市多摩区</li>
           <li>東生田1丁目13 - 1</li>
-          <li class="mt-3">TEL : 044 - 281 - 0450</li>
+          <li class="mt-3">TEL : 044-933-1511</li>
+          <li class="mt-3">FAX : 044-933-1905</li>
 
         </ul>
       </div>
@@ -18,12 +19,12 @@
         <h7 id="footersub-000"><a href="<?php echo home_url(); ?>" id="footersub-00">Home</a></h7>
       </div>
       <div class="col-lg-2 col-sm-12">
-        <h7 id="footersub-001" class="mb-5"><a href="/page-about" id="footersub-00">事業内容</a></h7>
+        <h7 id="footersub-001" class="mb-5"><a href="page-about" id="footersub-00">事業内容</a></h7>
 
         <ul class="list-unstyled text-small">
-          <li class="mt-2"><a class="text-muted" href="/page-about#bigbox-01">株式会社モコム</a></li>
-          <li class="mt-2"><a class="text-muted" href="/page-about#bigbox-02">株式会社PDP</a></li>
-          <li class="mt-2"><a class="text-muted" href="/page-about#bigbox-03">GMTI</a></li>
+          <li class="mt-2"><a class="text-muted" href="page-about#bigbox-01">株式会社モコム</a></li>
+          <li class="mt-2"><a class="text-muted" href="page-about#bigbox-02">株式会社PDP</a></li>
+          <li class="mt-2"><a class="text-muted" href="page-about#bigbox-03">Global Mocom<br/>Transcending Inc<br/>(GMTI)</a></li>
 
         </ul>
       </div>
@@ -69,6 +70,7 @@
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/mdb.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/function.js"></script>
+<?php wp_footer(); ?>
 </body>
 
 </html>

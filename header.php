@@ -36,21 +36,56 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent1">
 
       <ul class="navbar-nav justify-content-end" id="ulsec">
-      <li class="w-15 nav-item ">
+      <li class="w-20 nav-item ">
       <a class="nav-link w-100 m-1" id="linksactive" href="<?php echo home_url();?>">Home<span class="sr-only">(current)</span></a>
       </li>
-      <li class="w-15 nav-item">
+      <!-- <li class="w-20 nav-item">
       <a class="nav-link w-100  m-1" id="links" href="page-about">事業内容</a>
+      </li> -->
+
+      <li class="w-20 nav-item dropdown">
+        <a class="nav-link w-100 m-1 dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">事業内容</a>
+        <div class="dropdown-menu dropdown-primary p-2" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item"  href="page-about">Top</a>
+          <a class="dropdown-item" href="page-about#bigbox-01">株式会社モコム</a>
+          <a class="dropdown-item" href="page-about#bigbox-02">株式会社PDP</a>
+          <a class="dropdown-item" href="page-about#bigbox-03">GlovalMocom<br/>TranscendingInc</a>
+        </div>
       </li>
-      <li class=" w-15 nav-item">
+      <!-- <li class=" w-15 nav-item">
       <a class="nav-link w-100 m-1" id="links"  href="page-info">企業情報</a>
+      </li> -->
+      <li class="w-20 nav-item dropdown">
+        <a class="nav-link w-100 m-1 dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">企業情報</a>
+        <div class="dropdown-menu dropdown-primary p-2" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="page-info">Top</a>
+          <a class="dropdown-item" href="page-info#box001">メッセージ</a>
+          <a class="dropdown-item" href="page-info#box005">会社概要</a>
+          <a class="dropdown-item" href="page-info#box006">沿革</a>
+          <a class="dropdown-item" href="page-info#box007">主要取引先</a>
+        </div>  
       </li>
-      <li class="w-15 nav-item">
+
+      <!-- <li class="w-15 nav-item">
       <a class="nav-link w-100 m-1" id="links" href="page-product">製品・設備</a>
+      </li> -->
+
+      <li class="w-20 nav-item dropdown">
+        <a class="nav-link w-100 m-1 dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">製品設備</a>
+        <div class="dropdown-menu dropdown-primary p-2" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="page-product">Top</a>
+          <a class="dropdown-item" href="page-product#box001">製品</a>
+          <a class="dropdown-item" href="page-product#box002">設備</a>
+        </div>  
       </li>
-      <button type="button" class="btn btn-primary ml-3" onclick="location.href='contact'">
+
+      <button type="button" class="btn btn-primary ml-1" onclick="location.href='contact'">
         お問い合わせ
       </button>
       </ul>
+      <?php wp_head(); ?>
   </header>
   </div>
