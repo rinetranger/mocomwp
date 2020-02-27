@@ -4,10 +4,9 @@ Template Name: 企業情報
 */
 get_header("3") ?>
 <i class="fas fa-angle-double-up" id="back" onclick="back()"></i>
-
-<div id="submain-00" class="countainer-fluid">
-  <h1 id="submainp-00">企業情報</h1>
-  <h5 id="submainp-04">CORPORATE INFORMATION</h5>
+<div id="submain-00" class="countainer w-100 m-0 p-0">
+  <h1 id="submainp-00" class="fadeinmain1" style="display:none;">企業情報</h1>
+  <h5 id="submainp-04" class="fadeinmain2" style="display:none;">CORPORATE INFORMATION</h5>
 </div>
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
@@ -16,15 +15,19 @@ get_header("3") ?>
   </ol>
 </nav>
 
-<div class="container mt-5 mb-5 justify-content-lg-center" id="name-00">
+<script type="text/javascript">
+  $('.fadeinmain1').fadeIn(2000);
+  $('.fadeinmain2').fadeIn(3000);
+</script>
+<div class="container justify-content-lg-center" id="name-00">
 
 
 
   <section>
-    <ul class="list-group list-group-horizontal-lg ml-5 w-100">
+    <ul class="list-group list-group-horizontal-lg mt-4 w-100">
       <div class="row">
         <div class="col-sm-6 col-lg-3">
-          
+
           <a class="btn purple-gradient list-group-item m-2" id="boxitem-00" onclick="move1()">メッセージ</a>
         </div>
         <div class="col-sm-6 col-lg-3">
@@ -35,12 +38,12 @@ get_header("3") ?>
           <a class="btn purple-gradient list-group-item m-2" id="boxitem-02" onclick="move4()">沿革</a>
         </div>
         <div class="col-sm-6 col-lg-3">
-        <a class="btn purple-gradient list-group-item m-2" id="boxitem-02" onclick="move5()">主要取引先</a>
-         
+          <a class="btn purple-gradient list-group-item m-2" id="boxitem-02" onclick="move5()">主要取引先</a>
+
         </div>
       </div>
-</ul>
-</section>
+    </ul>
+  </section>
 </div>
 
 <i class="fas fa-angle-double-up" id="back" onclick="back()"></i>
@@ -57,16 +60,16 @@ get_header("3") ?>
   </div>
 </div>
 <div class="container">
-<div class="col w-100" id="matchimage" >
+  <div class="col w-100" id="matchimage">
 
-<img src="<?php bloginfo('template_directory'); ?>/images/match2x-p-1080.png" class="img-fluid z-depth-1" alt="Responsive image" width="100%">
+    <img src="<?php bloginfo('template_directory'); ?>/images/match2x-p-1080.png" class="img-fluid z-depth-1" alt="Responsive image" width="100%">
 
-</div>
+  </div>
   <div class="row justify-content-center">
-    <div class="col-8 m-1">
-      <div id="matchbox-00">
+    <div class="col-11 ml-5 mr-5 w-100">
+      <div id="matchbox-00 w-100 mr-2 ml-2">
 
-        
+
         <p class="mt-5">
           現在、世界中の企業の栄枯盛衰に見られるように、昨日の成功が明日の成功を約束してくれるわけではありません。時代の変化に迅速に対応することのできる企業だけが生き残り、当面の繁栄を享受できます。そのような厳しいビジネス環境のなかでも、時代の変化に対応しながら、変わらず世の中に貢献できる企業を目指し、MOCOMグループでは3つの方針を掲げ、事業活動を行っております。
         </p>
@@ -97,7 +100,7 @@ get_header("3") ?>
   </div>
 </div>
 
-  <!-- <div class="container-fluid" id="box003">
+<!-- <div class="container-fluid" id="box003">
     <div class="container mt-5" id="bigbox-02">
       <div class="row">
         <div id="box002" class="col-lg ml-5 mt-5">
@@ -128,7 +131,7 @@ get_header("3") ?>
 
 <div class="container mt-5" id="bigbox-03">
   <div class="row" id="box-002">
-    <div id="box005" class="col-lg ml-5">
+    <div id="box005" class="col-lg ml-2">
       <div class="row-sm">
         <div id="border-01">
           <h1 id="title01">会社概要</h1>
@@ -145,9 +148,9 @@ get_header("3") ?>
     </div>
   </div>
 </div>
-<div class="container justify-content-center mt-5 w-75">
-  <h5 class="w-100 mb-3">株式会社モコム</h5>
-  <table class="table">
+<div class="container mt-5 w-100" id="ptable">
+  <h5 class="w-100 mb-3 text-center">株式会社モコム</h5>
+  <table class="table w-100">
     <thead>
       <tr>
         <th scope="col" style="width:30%">会社名</th>
@@ -177,7 +180,7 @@ get_header("3") ?>
       </tr>
       <tr>
         <th scope="row">株主</th>
-        <td>町山 正成　　　大杉 善信</td>
+        <td>町山 正成<br />大杉 善信</td>
 
       </tr>
       <tr>
@@ -189,8 +192,8 @@ get_header("3") ?>
   </table>
 </div>
 
-<div class="container justify-content-center mt-5 w-75">
-  <h5 class="w-100 mb-3">株式会社PDP</h5>
+<div class="container mt-5 w-100" id="ptable">
+  <h5 class="w-100 mb-3 text-center">株式会社PDP</h5>
   <table class="table">
     <thead>
       <tr>
@@ -232,8 +235,8 @@ get_header("3") ?>
     </tbody>
   </table>
 </div>
-<div class="container justify-content-center mt-5 mb-5 w-75">
-  <h5 class="w-100 mb-3">Global Mocom Transcending Inc.</h5>
+<div class="container mt-5 w-90" id="ptable">
+  <h5 class="w-100 mb-3 text-center">Global Mocom Transcending Inc.</h5>
   <table class="table">
     <thead>
       <tr>
@@ -291,7 +294,7 @@ get_header("3") ?>
 <div class="container-fluid w-100" id="box004">
   <div class="container mt-5" id="bigbox-04">
     <div class="row" id="box-005">
-      <div id="box006" class="col-lg ml-5">
+      <div id="box006" class="col-lg">
         <div class="row-sm  mt-5">
           <div id="border-01">
             <h1 id="title01">沿革</h1>
@@ -301,7 +304,7 @@ get_header("3") ?>
       </div>
     </div>
   </div>
-  <div class="container justify-content-center mt-5 mb-5 w-75">
+  <div class="container justify-content-center mt-5 mb-5 mr-2 w-90" id="ptable">
 
     <table class="table">
       <tbody>
@@ -355,7 +358,7 @@ get_header("3") ?>
 
 <div class="container mt-5" id="bigbox-05">
   <div class="row" id="box-002">
-    <div id="box007" class="col-lg ml-5">
+    <div id="box007" class="col-lg">
       <div class="row-sm">
         <div id="border-01">
           <h1 id="title01">主要取引先</h1>
@@ -367,7 +370,7 @@ get_header("3") ?>
 </div>
 <div class="container mb-5">
   <div class="row mt-5">
-    <div class="col-lg-4 justify-content-lg-around">
+    <div class="col-lg-4 justify-content-center">
       <div>
         <h6 id="pname-00">アルインコ（株）</h6>
       </div>
@@ -429,7 +432,7 @@ get_header("3") ?>
       <div>
         <h6 id="pname-00">(株) 光真製作所</h6>
       </div>
-      
+
       <div>
         <h6 id="pname-00">(株) 三球電気製作所</h6>
       </div>
@@ -445,14 +448,12 @@ get_header("3") ?>
       <div>
         <h6 id="pname-00">ミツミ電機 (株)</h6>
       </div>
-      
-    </div>
-    <p class="mt-5 ml-3 mr-3">(社名については五十音順で記載しております。敬称について省略させていただきました。)</p>
-  </div>
 
+    </div>
+    <p class="mt-5 ml-3 mr-5">(社名については五十音順で記載しております。敬称について省略させていただきました。)</p>
+  </div>
 </div>
-</div>
-</div>
+
 <script type="text/javascript">
   function move1() {
     document.getElementById("border-01").scrollIntoView({

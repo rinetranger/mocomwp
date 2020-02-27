@@ -5,8 +5,8 @@ Template Name: お問い合わせ
  get_header("5")?>
 <i class="fas fa-angle-double-up" id="back" onclick="back()"></i>
 <div class="countainer-fluid" id="submain-00">
-    <h1 id="submainp-00">お問い合わせ</h1>
-    <h5 id="submainp-06">CONTACT</h5>
+    <h1 id="submainp-00" class="fadeinmain1" style="display:none;">お問い合わせ</h1>
+    <h5 id="submainp-06" class="fadeinmain1" style="display:none;">CONTACT</h5>
   </div>
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
@@ -14,6 +14,12 @@ Template Name: お問い合わせ
       <li class="breadcrumb-item active" aria-current="page">製品・設備</li>
     </ol>
   </nav>
+  <script type="text/javascript">
+      $('.fadeinmain1').fadeIn(2000);
+      $('.fadeinmain2').fadeIn(3000);
+  
+      </script>
+
   <i class="fas fa-angle-double-up" id="back" onclick="back()"></i>
   <div class="container w-100" id="name-00">
     <div id="box-00" class="container">
@@ -82,7 +88,8 @@ Template Name: お問い合わせ
                   <div class="paragraph-light thick mt-3 mb-3">電話番号</div>
                 </div>
                 <div>
-                  <div class="paragraph-light no-padding thick">044-281-0450</div>
+                  <div class="paragraph-light no-padding thick">TEL : 044-933-1511
+                </div>
                 </div>
                 <div>
                   <div>

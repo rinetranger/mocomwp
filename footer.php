@@ -1,4 +1,4 @@
-<footer class="p-3 py-5 text-light bg-dark w-100">
+<footer class="p-3 py-5 text-dark bg-light w-100">
   <div class="container">
     <div class="row justify-content-between">
       <div class="col-12">
@@ -29,14 +29,6 @@
         </ul>
       </div>
       <div class="col-lg-2 col-sm-12">
-        <h7 id="footersub-002" class="mb-5"><a href="page-product" id="footersub-00">製品・設備</a></h7>
-        <ul class="list-unstyled text-small">
-          <li class="mt-2"><a class="text-muted" href="page-product#box001">製品情報</a></li>
-          <li class="mt-2"><a class="text-muted" href="page-product#box002">設備情報</a></li>
-
-        </ul>
-      </div>
-      <div class="col-lg-2 col-sm-12">
         <h7 id="footersub-003" class="mb-5"><a href="page-info" id="footersub-00">企業情報</a></h7>
         <ul class="list-unstyled text-small">
           <li class="mt-2"><a class="text-muted" href="page-info#box001">社長メッセージ</a></li>
@@ -45,6 +37,14 @@
           <li class="mt-2"><a class="text-muted" href="page-info#box006">沿革</a></li>
           <li class="mt-2"><a class="text-muted" href="page-info#box007">主要取引先</a></li>
           <li class="mt-2"><a class="text-muted" href="contact">お問合せ</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-sm-12">
+        <h7 id="footersub-002" class="mb-5"><a href="page-product" id="footersub-00">製品・設備</a></h7>
+        <ul class="list-unstyled text-small">
+          <li class="mt-2"><a class="text-muted" href="page-product#box001">製品情報</a></li>
+          <li class="mt-2"><a class="text-muted" href="page-product#box002">設備情報</a></li>
+
         </ul>
       </div>
     </div>

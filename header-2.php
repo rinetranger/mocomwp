@@ -7,6 +7,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title><?php bloginfo('name'); ?></title>
   <!-- Font Awesome -->
+  <link rel="shortcut icon" href="http://rinkishi.sakura.ne.jp/sharemuse/wp-content/uploads/2020/02/favicon.png">
   <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -44,13 +45,13 @@
       </li> -->
 
       <li class="w-20 nav-item dropdown">
-        <a class="nav-link w-100 m-1 dropdown-toggle" id="navbarDropdownMenuLink linksactive" data-toggle="dropdown"
+        <a class="nav-link w-100 m-1 dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">事業内容</a>
         <div class="dropdown-menu dropdown-primary p-2" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item"  href="page-about">Top</a>
+          <a class="dropdown-item"  href="page-about">事業内容トップ</a>
           <a class="dropdown-item" href="page-about#bigbox-01">株式会社モコム</a>
           <a class="dropdown-item" href="page-about#bigbox-02">株式会社PDP</a>
-          <a class="dropdown-item" href="page-about#bigbox-03">GlovalMocom<br/>TranscendingInc</a>
+          <a class="dropdown-item" href="page-about#bigbox-03">GlobalMocom<br/>TranscendingInc</a>
         </div>
       </li>
       <!-- <li class=" w-15 nav-item">
@@ -60,7 +61,7 @@
         <a class="nav-link w-100 m-1 dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">企業情報</a>
         <div class="dropdown-menu dropdown-primary p-2" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="page-info">Top</a>
+          <a class="dropdown-item" href="page-info">企業情報トップ</a>
           <a class="dropdown-item" href="page-info#box001">メッセージ</a>
           <a class="dropdown-item" href="page-info#box005">会社概要</a>
           <a class="dropdown-item" href="page-info#box006">沿革</a>
@@ -76,7 +77,7 @@
         <a class="nav-link w-100 m-1 dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">製品設備</a>
         <div class="dropdown-menu dropdown-primary p-2" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="page-product">Top</a>
+          <a class="dropdown-item" href="page-product">製品設備トップ</a>
           <a class="dropdown-item" href="page-product#box001">製品</a>
           <a class="dropdown-item" href="page-product#box002">設備</a>
         </div>  

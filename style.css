@@ -20,7 +20,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 #footersub-00{
-  color:white;
+  color:rgb(54, 54, 54);
 
 }
 footer{
@@ -28,15 +28,15 @@ footer{
 }
 
 #copyright{
-  background-color: rgb(36, 35, 35);
-  color:white;
+  background-color: rgb(223, 223, 223);
+  color:black;
  text-align: center;
  height:50px;
  padding-top: 15px;
 }
 #copyrightinner {
-  background-color: rgb(36, 35, 35);
-  color:white;
+  background-color: rgb(223, 223, 223);
+  color:black;
  
 }
 #back{
@@ -46,7 +46,7 @@ footer{
   top:90%;
   left:92%;
   border-radius: 50px;
-  background-color:rgb(19, 19, 19);
+  background-color:rgba(120,115,245);
   text-align: center;
   line-height: 50px;
   color:white;
@@ -69,9 +69,22 @@ header{
   width: 75%;
 }
 
+.fadeinmain {
+  display: flex;
+}
 
-
-
+.dropdown-menu{
+  border: none;
+  
+}
+.dropdown-menu:hover{
+  border: none;
+}
+.dropdown-item:hover{
+  background-color: #007bff!important;
+  opacity: 0.7;
+  color:white !important;
+}
 
 #ulsec{
   width:100%;
@@ -293,6 +306,22 @@ li{
     padding-right: 1px;
     line-height: normal;
 }
+
+.imgWrap {
+	overflow: hidden;	/*拡大時にはみ出た部分を隠す*/
+	width: 320px;	/*画像の幅*/
+	height: 200px;	/*画像の高さ*/
+}
+.imgWrap img {
+	display: block;
+	transition-duration: 0.3s;	/*変化に掛かる時間*/
+}
+.imgWrap img:hover {
+	transform: scale(1.1);	/*画像の拡大率*/
+	transition-duration: 0.3s;	/*変化に掛かる時間*/
+}
+
+
 #a-color{
     color:white;
 }
@@ -389,6 +418,9 @@ li{
     border-bottom: 1px solid #b6b6b6;
     
 }
+#box002{
+  width:100%;
+}
 
 
 #match-00{
@@ -413,7 +445,7 @@ width:100%;
 input{
     width:300px;
     height: 45px;
-    margin-top: 5zsdpx;
+    margin-top: 5px;
     margin-bottom: 10px;
     border-radius: 3px;
     border: 1px solid #b6b6b6;
@@ -437,9 +469,13 @@ textarea{
 #contacttitle{
    text-align: center;
 }
-
-table{
-    table-layout:fixed;
+#ptable{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.table{
     width:100%;
 }
 
@@ -778,7 +814,7 @@ table{
       font-size: 1.6rem;
     }
    
-    .article-content h2 {
+    .article-content h2 {　
       font-size: 1.4rem;
     }
    
@@ -790,7 +826,11 @@ table{
       font-size: 1.2rem;
     }
 
-
+    #mainimagesm{
+       background-image: url(./images/woman.jpg);
+       background-size: 200% auto;
+       background-position:right bottom;
+    }
 
 
 
@@ -800,4 +840,12 @@ table{
 
 
     
+}
+@media only screen and (min-width: 600px){
+  #mainimagesm{
+    background-image: url(./images/woman.jpg);
+    background-size: 100% auto;
+    background-position:center bottom;
+ }
+
 }

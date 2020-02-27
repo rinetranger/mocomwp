@@ -1,7 +1,7 @@
 <?php get_header() ?>
 <div class="w-100">
   </nav>
-  <div id="main">
+  <div id="main col-sm-12 col-lg-12">
 
     <div class="row">
       <!-- <div class="col-12">
@@ -9,16 +9,24 @@
         <div>
         </div> -->
         <!-- Jumbotron -->
-<div class="card card-image w-100" style="background-image: url(<?php bloginfo('template_directory'); ?>/images/woman.jpg);background-size: 100% auto;background-position:center bottom;">
+
+<div id="mainimagesm" class="card card-image w-100" style="background-image: url(<?php bloginfo('template_directory');?>/images/woman.jpg);">
   <div class="text-white font-weight-bold text-center rgba-blue-strong py-5 px-4">
     <div class="py-5">
 
       <!-- Content -->
-      <h3 class="h3 text-black">MOCOM グループ</h3>
-      <h2 class="card-title h2 my-4 py-2">お客様の『こうしたい』をカタチにするために</h2>
-      <p class="mb-4 pb-2 px-md-5 mx-md-5">設計、調達から製造、解析評価、設備開発まで インテグレーションの豊富な経験を活かし、お客様の様々なご要望に対応致します。</p>
-      <a class="btn purple-gradient" href="page-product#box001"><i class="fas fa-clone left"></i> View project</a>
-
+      <div >
+      <h3 class="h3 text-black fadeinmain1 justify-content-center" style="display: none">MOCOM グループ</h3>
+      <h2 class="card-title h2 my-4 py-2 fadeinmain2 justify-content-center" style="display: none">お客様の『こうしたい』をカタチにするために</h2>
+      <p class="mb-4 pb-2 px-md-5 mx-md-5 fadeinmain3 justify-content-center" style="display: none">設計、調達から製造、解析評価、設備開発まで インテグレーションの豊富な経験を活かし、お客様の様々なご要望に対応致します。</p>
+      <a class="btn peach-gradient fadeinmain4" href="page-product#box001"><i class="fas fa-clone left"></i> View prducts</a>
+      </div>
+　　　<script type="text/javascript">
+      $('.fadeinmain1').fadeIn(1000);
+      $('.fadeinmain2').fadeIn(2000);
+      $('.fadeinmain3').fadeIn(3000);
+  
+      </script>
     </div>
   </div>
 </div>
@@ -27,7 +35,7 @@
 
 
       <div class="container mt-5 mb-5 justify-content-center" id="bigbox-01">
-        <div class="row ml-5 mr-5">
+        <div class="row ml-2 mr-2">
           <div id="box001" class="col-lg">
             <div class="row-sm">
               <div id="border-01">
@@ -36,7 +44,7 @@
               </div>
             </div>
           </div>
-          <div id="box002" class="col-lg">
+          <div id="box002" class="col-lg w-100 mt-3">
             <div class="row-sm">
               <h4 id=title02>多品種少量をメインとする<br />
                 一貫したソリューション体制</h4>
@@ -100,7 +108,7 @@
     </div>
 
     <div class="container justify-content-center mt-5 mb-5" id="bigbox-01">
-      <div class="row row ml-5 mr-5">
+      <div class="row row ml-2 mr-2">
         <div id="box001" class="col-lg">
           <div class="row-sm">
             <div id="border-01">
@@ -113,7 +121,7 @@
           <div class="row-sm mt-5 mb-5">
             <h4 id=title02>TRANSCENDING = "超越"<br />
               の継続で発展する会社</h4>
-            <p id="detail001" class="mt-5 mb-5 mr-5">モコムグループは、(株)モコムを主体に、設計・調達の(株)ピーディーピーと基板実装・樹脂成型・板金加工・金型製作のGLOBAL MOCOM
+            <p id="detail001" class="mt-5 mb-5 mb-2 mr-2">モコムグループは、(株)モコムを主体に、設計・調達の(株)ピーディーピーと基板実装・樹脂成型・板金加工・金型製作のGLOBAL MOCOM
               TRANSCENDING INCの3企業から成り立つグループ会社です。</p>
             <button type="button" class="btn btn-primary purple-gradient">
               <a class="m-1 p-2" id="btnin-00" href="page-info">詳細を見る</a>
@@ -131,7 +139,7 @@
 
 
     <div class="container mt-5 mb-5 justify-content-between" id="bigbox-01">
-      <div class="row row ml-5 mr-5">
+      <div class="row row ml-2 mr-2">
         <div id="box001" class="col-lg">
           <div class="row-sm">
             <div id="border-01">

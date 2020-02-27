@@ -5,8 +5,8 @@ Template Name: 製品・設備
 get_header("4") ?>
 
 <div id="submain-00" class="countainer-fluid">
-    <h1 id="submainp-00">製品・設備</h1>
-    <h5 id="submainp-05">PRODUCT & FACILITY</h5>
+    <h1 id="submainp-00" class="fadeinmain1" style="display:none;">製品・設備</h1>
+    <h5 id="submainp-05" class="fadeinmain2" style="display:none;">PRODUCT & FACILITY</h5>
 </div>
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
@@ -14,6 +14,13 @@ get_header("4") ?>
         <li class="breadcrumb-item active" aria-current="page">製品・設備</li>
     </ol>
 </nav>
+<script type="text/javascript">
+      $('.fadeinmain1').fadeIn(2000);
+      $('.fadeinmain2').fadeIn(3000);
+  
+      </script>
+
+
 <div class="container  w-100 mt-5 mb-5">
     <div class="row justify-content-center">
         <section>
@@ -60,14 +67,18 @@ get_header("4") ?>
       
         <div class="col-lg-4">
             <div class="col-12-sm ml-3">
+            <div class="imgWrap">
                 <img src="<?php bloginfo('template_directory'); ?>/images/product_EGRIP2x.jpg" width="290px" height="200px">
+            </div>
                 <h3 id="operationtitle-00">EGRIP</h3>
                 <p id="operationcontents-00">EGRIPは当社が開発した工具です。生産ツールである【EGRIP】は、Eリング挿入・取外工具です。そのほか、様々な設計開発製造を行っております。いずれもこれまでの常識にとらわれない斬新な発想による製品です。</p>
             </div>
         </div>
         <div class="col-lg-4">
             <div class="col-12-sm ml-3">
+            <div class="imgWrap">
                 <img src="<?php bloginfo('template_directory'); ?>/images/-EGRIP-p-500.jpeg" width="290px" height="200px">
+            </div>
                 <h3 id="operationtitle-01"> GMATIC</h3>
                 <p id="operationcontents-01">GMATICは当社が開発した工具です。
                     Eリング挿入・取外工具【EGRIP】などの生産ツール、【GMATIC】などの高強度プラスティック製品など様々な設計開発製造を行っております。いずれもこれまでの常識にとらわれない斬新な発想による製品です。またSMTライン用の基板ローダー/アンローダー装置や樹脂成型材料の自動ローディング装置、自動サンドブラスト装置など社内自動化で培ったノウハウを製品化しております。</p>
@@ -131,8 +142,9 @@ if ( $the_query->have_posts() ) :
 
 <div class="col-lg-4">
     <div class="col-12-sm ml-3">
-        
-  <?php the_post_thumbnail(array(290,200)); ?>
+    <div class="imgWrap">  
+  <?php the_post_thumbnail(array(330,200)); ?>
+    </div>
     <h3 id="operationtitle-10"><?php the_title(); ?></h3>
     <article id="operationcontents-10"><?php the_content();  ?></articlex`>
   </div>
@@ -191,7 +203,9 @@ wp_reset_postdata();
 
         <div class="col-lg-4">
             <div class="col-12-sm ml-3">
+            <div class="imgWrap">
                 <img src="<?php bloginfo('template_directory'); ?>/images/bankinequip-p-500.jpeg" width="290px" height="200px">
+            </div>
                 <h3 id="operationtitle-00">板金加工機設備</h3>
                 <p id="operationcontents-00">アマダ社製タレットパンチプレス：３台<br />
                     アマダ社製(35～50トン)プレスブレーキ：４台<br />
@@ -205,7 +219,9 @@ wp_reset_postdata();
         </div>
         <div class="col-lg-4">
             <div class="col-12-sm ml-3">
+            <div class="imgWrap">
                 <img src="<?php bloginfo('template_directory'); ?>/images/rmfactory2-p-500.jpeg" width="290px" height="200px">
+            </div>
                 <h3 id="operationtitle-01">樹脂成型機設備</h3>
                 <p id="operationcontents-01">横型樹脂成型機 (20トン～450トン)：３５台<br />
                     縦型樹脂成型機 (40トン～100トン) ：５台<br />
@@ -216,7 +232,9 @@ wp_reset_postdata();
         </div>
         <div class="col-lg-4">
             <div class="col-12-sm ml-3">
+            <div class="imgWrap">
                 <img src="<?php bloginfo('template_directory'); ?>/images/iequip-p-500.jpeg" width="290px" height="200px">
+            </div>
                 <h3 id="operationtitle-02">実装組立設備</h3>
                 <p id="operationcontents-02">2SMT実装ライン：2ライン <br />(Juki,Panasonic,Yamaha,Tamura)<br />
                     自動工学検査装置 (AOI)：１台<br />
@@ -238,7 +256,9 @@ wp_reset_postdata();
 
         <div class="col-lg-4">
             <div class="col-12-sm ml-3">
+            <div class="imgWrap">
                 <img src="<?php bloginfo('template_directory'); ?>/images/print.jpg" width="290px" height="200px">
+            </div>
                 <h3 id="operationtitle-00">塗装印刷機器</h3>
                 <p id="operationcontents-00">手吹き液体塗装ブース：２台<br>
                     手吹き粉体塗装ブース：３台<br>
@@ -252,7 +272,9 @@ wp_reset_postdata();
         </div>
         <div class="col-lg-4">
             <div class="col-12-sm ml-3">
+            <div class="imgWrap">
                 <img src="<?php bloginfo('template_directory'); ?>/images/surfacet-p-500.jpeg" width="290px" height="200px">
+            </div>
                 <h3 id="operationtitle-01">表面処理設備</h3>
                 <p id="operationcontents-01">リン酸亜鉛皮膜処理（鉄・アルミ）：１ライン<br>
                     リン酸マンガン被膜処理：１ライン<br>
@@ -261,7 +283,9 @@ wp_reset_postdata();
         </div>
         <div class="col-lg-4">
             <div class="col-12-sm ml-3">
+            <div class="imgWrap">
                 <img src="<?php bloginfo('template_directory'); ?>/images/mold-p2-500.jpeg" width="290px" height="200px">
+            </div>
                 <h3 id="operationtitle-02">金型製造修理設備</h3>
                 <p id="operationcontents-02">
                     ワイヤーカット放電加工機<br>
@@ -276,11 +300,13 @@ wp_reset_postdata();
         </div>
         <div class="row">
 
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <div class="col-12-sm ml-4">
+                <div class="imgWrap">
                     <img src="<?php bloginfo('template_directory'); ?>/images/mequip-p-500.jpeg" width="290px" height="200px">
+                </div>
                     <h3 id="operationtitle-01">測定機器</h3>
-                    <p id="operationcontents-01">ミツトヨ社製３次元測定器<br />
+                    <p id="operationcontents-00">ミツトヨ社製３次元測定器<br />
                         ミツトヨ社製ビジョンスコープ：１台<br />
                         ニコン社製投影機：１台</p>
                 </div>
