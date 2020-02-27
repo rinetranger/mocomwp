@@ -48,7 +48,7 @@ get_header("3") ?>
 
 <i class="fas fa-angle-double-up" id="back" onclick="back()"></i>
 <div class="container mt-5 mb-5" id="bigbox-01">
-  <div class="row" id="box-002">
+  <div class="row mt-1" id="box-002">
     <div id="box001" class="col-lg">
       <div class="row-sm">
         <div id="border-01">

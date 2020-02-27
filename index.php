@@ -91,10 +91,11 @@
               <div>
                 <h3 class="p-5 mb-3 h6" id="com-03">GLOBAL MOCOM TRANSCENDING INC.</h5>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><a href="page-about#bigbox-03">金型設計/製造</a></li>
+                    
                     <li class="list-group-item"><a href="page-about#bigbox-03">板金加工・塗装印刷</a></li>
                     <li class="list-group-item"><a href="page-about#bigbox-03">樹脂成型・塗装印刷</a></li>
                     <li class="list-group-item"><a href="page-about#bigbox-03">製品組立</a></li>
+                    <li class="list-group-item"><a href="page-about#bigbox-03">金型設計/製造</a></li>
                     <li class="list-group-item"><a href="page-about#bigbox-03">その他加工</a></li>
                     <li class="list-group-item"><a href="page-about#bigbox-03">オリジナル製品製造</a></li>
                   </ul>

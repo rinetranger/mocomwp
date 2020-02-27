@@ -158,16 +158,7 @@ Template Name: 事業内容
   
   <div class="container mt-3 w-100" id="companybox">
     <div class="row">
-      <div class="col-lg-4">
-        <div class="col-12-sm">
-        <div class="imgWrap">
-          <img src="<?php bloginfo('template_directory'); ?>/images/bankinequip-p-500.jpeg" width="330px" height="200px">
-        </div>
-          <h3 id="operationtitle-00">金型設計・製造</h3>
-          <p id="operationcontents-00">社内成形品の金型製作及び修理体制により、短納期での設計、製造、レベルアップが可能です。アジアに広がる協
-            業金型メーカーとのネットワークにより、短期集中・多量の対応にも強みを発揮致しますのでご相談ください。</p>
-        </div>
-      </div>
+     
       <div class="col-lg-4">
         <div class="col-12-sm">
         <div class="imgWrap">
@@ -190,10 +181,6 @@ Template Name: 事業内容
           </p>
         </div>
       </div>
-
-
-    </div>
-    <div class="row w-100">
       <div class="col-lg-4">
         <div class="col-12-sm">
         <div class="imgWrap">
@@ -203,6 +190,20 @@ Template Name: 事業内容
           <p id="operationcontents-00">
             SMTラインを有し、基板の実装から組立、調整、梱包までの一貫した作業が可能です。製造ラインはリレー生産方式という少人数応受援方式により、製造負荷バランスを調整しております。これにより特に機種切り替えの多い多品種少量品の生産を効率的に行うことが可能です。20年以上のアナログ高周波製品製造実績がございます。
           </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="row w-100">
+      
+      <div class="col-lg-4">
+        <div class="col-12-sm">
+        <div class="imgWrap">
+          <img src="<?php bloginfo('template_directory'); ?>/images/bankinequip-p-500.jpeg" width="330px" height="200px">
+        </div>
+          <h3 id="operationtitle-00">金型設計・製造</h3>
+          <p id="operationcontents-00">社内成形品の金型製作及び修理体制により、短納期での設計、製造、レベルアップが可能です。アジアに広がる協
+            業金型メーカーとのネットワークにより、短期集中・多量の対応にも強みを発揮致しますのでご相談ください。</p>
         </div>
       </div>
       <div class="col-lg-4">
