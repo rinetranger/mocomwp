@@ -5,7 +5,9 @@ Template Name: 事業内容
  get_header("2")?>
 <i class="fas fa-angle-double-up" id="back" onclick="back()"></i>
   <div class="w-100" class="countainer-fluid">
+  
     <div id="submain-00">
+    <h5 class="h5 text-white fadeinmain3 ml-5 pt-3" id="moji1" style="display: none">Turn Your Vision into Reality</h5>
       <h1 id="submainp-00" class="fadeinmain1" style="display:none;">事業内容</h1>
       <h5 id="submainp-03" class="fadeinmain2" style="display:none;">OUR SERVICE</h5>
     </div>
@@ -19,6 +21,7 @@ Template Name: 事業内容
   <script type="text/javascript">
       $('.fadeinmain1').fadeIn(2000);
       $('.fadeinmain2').fadeIn(3000);
+      $('.fadeinmain3').fadeIn(2000);
      
   
       </script>
@@ -32,17 +35,17 @@ Template Name: 事業内容
 
             <div class="col-lg-4 col-sm-12">
               
-              <a class="btn purple-gradient list-group-item m-2" id="boxitem-00" onclick="move1()"><i class="fas fa-home"></i> 株式会社モコム</a>
+              <a class="btn peach-gradient list-group-item m-2" id="boxitem-00" onclick="move1()"><i class="fas fa-home"></i> 株式会社モコム</a>
             </div>
 
             <div class="col-lg-4 col-sm-12">
               
-              <a class="btn purple-gradient list-group-item m-2" id="boxitem-01" onclick="move2()"><i class="fas fa-home"></i> 株式会社PDP</a>
+              <a class="btn peach-gradient list-group-item m-2" id="boxitem-01" onclick="move2()"><i class="fas fa-home"></i> 株式会社PDP</a>
             </div>
 
             <div class="col-lg-4 col-sm-12">
              
-              <a class="btn purple-gradient list-group-item m-2" id="boxitem-10" onclick="move1()"><i class="fas fa-home"></i> GLOBAL MOCOM TRSNDCENDING INC.</a>
+              <a class="btn peach-gradient list-group-item m-2" id="boxitem-10" onclick="move3()"><i class="fas fa-home"></i> GLOBAL MOCOM TRSNDCENDING INC.</a>
             </div>
 
           </ul>
@@ -162,7 +165,7 @@ Template Name: 事業内容
       <div class="col-lg-4">
         <div class="col-12-sm">
         <div class="imgWrap">
-          <img src="<?php bloginfo('template_directory'); ?>/images/mold-p1-500.jpeg" width="330px" height="200px">
+          <img src="<?php bloginfo('template_directory'); ?>/images/bankinequ.jpg" width="330px" height="200px">
         </div>
           <h3 id="operationtitle-01">板金加工・塗装印刷</h3>
           <p id="operationcontents-01">
@@ -184,9 +187,9 @@ Template Name: 事業内容
       <div class="col-lg-4">
         <div class="col-12-sm">
         <div class="imgWrap">
-          <img src="<?php bloginfo('template_directory'); ?>/images/assembly.jpeg" width="330px" height="200px">
+          <img src="<?php bloginfo('template_directory'); ?>/images/kumitate.jpg" width="330px" height="200px">
         </div>
-          <h3 id="operationtitle-00">製品組立</h3>
+          <h3 id="operationtitle-00">実装・組立</h3>
           <p id="operationcontents-00">
             SMTラインを有し、基板の実装から組立、調整、梱包までの一貫した作業が可能です。製造ラインはリレー生産方式という少人数応受援方式により、製造負荷バランスを調整しております。これにより特に機種切り替えの多い多品種少量品の生産を効率的に行うことが可能です。20年以上のアナログ高周波製品製造実績がございます。
           </p>
@@ -199,7 +202,7 @@ Template Name: 事業内容
       <div class="col-lg-4">
         <div class="col-12-sm">
         <div class="imgWrap">
-          <img src="<?php bloginfo('template_directory'); ?>/images/bankinequip-p-500.jpeg" width="330px" height="200px">
+          <img src="<?php bloginfo('template_directory'); ?>/images/mold-p1-500.jpeg" width="330px" height="200px">
         </div>
           <h3 id="operationtitle-00">金型設計・製造</h3>
           <p id="operationcontents-00">社内成形品の金型製作及び修理体制により、短納期での設計、製造、レベルアップが可能です。アジアに広がる協
@@ -209,7 +212,7 @@ Template Name: 事業内容
       <div class="col-lg-4">
         <div class="col-12-sm">
         <div class="imgWrap">
-          <img src="<?php bloginfo('template_directory'); ?>/images/bankin-p-500.jpeg" width="330px" height="200px">
+          <img src="<?php bloginfo('template_directory'); ?>/images/semicon.jpg" width="330px" height="200px">
         </div>
           <h3 id="operationtitle-01">その他加工</h3>
           <p id="operationcontents-01">12台のCNC BROTHER TC 20Aによる小物の切削加工や、研磨機・ラッピングマシンによる硝子加工が可能です。 </p>

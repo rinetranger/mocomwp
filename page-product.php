@@ -5,6 +5,7 @@ Template Name: 製品・設備
 get_header("4") ?>
 
 <div id="submain-00" class="countainer-fluid">
+<h5 class="h5 text-white fadeinmain3 ml-5 pt-3" id="moji1" style="display: none">Turn Your Vision into Reality</h5>
     <h1 id="submainp-00" class="fadeinmain1" style="display:none;">製品・設備</h1>
     <h5 id="submainp-05" class="fadeinmain2" style="display:none;">PRODUCT & FACILITY</h5>
 </div>
@@ -17,6 +18,7 @@ get_header("4") ?>
 <script type="text/javascript">
     $('.fadeinmain1').fadeIn(2000);
     $('.fadeinmain2').fadeIn(3000);
+    $('.fadeinmain3').fadeIn(3000);
 </script>
 
 
@@ -27,12 +29,12 @@ get_header("4") ?>
 
                 <div class="col-lg-6 col-sm-12">
 
-                    <a class="btn purple-gradient list-group-item m-2" id="boxitem-00" onclick="move1()">製品情報</a>
+                    <a class="btn peach-gradient list-group-item m-2" id="boxitem-00" onclick="move1()">製品情報</a>
                 </div>
 
                 <div class="col-lg-6 col-sm-12">
 
-                    <a class="btn purple-gradient list-group-item m-2" id="boxitem-01" onclick="move2()">設備情報</a>
+                    <a class="btn peach-gradient list-group-item m-2" id="boxitem-01" onclick="move2()">設備情報</a>
 
                 </div>
 
@@ -60,22 +62,9 @@ get_header("4") ?>
 </div>
 
 
-
-<div class="contents">
-
-
-
-</div>
-
-</div>
-
 <div class="container" id="companybox01">
     <h4 class="w-100 mt-5 mb-5 ml-4">委託製品</h4>
-    <!-- <img src="<?php bloginfo('template_directory'); ?>/images/商品_EGRIP2x-p-800.jpeg" width="290px" height="200px">
-                <h3 id="operationtitle-00">EGRIP</h3>
-                <p id="operationcontents-00">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                    xxxxxxxxxxxxx
-                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p> -->
+
     <div class="row">
         <?php
         // ① ↓ 今現在のページ位置を取得
@@ -96,7 +85,6 @@ get_header("4") ?>
 
         // 記事一覧のループスタート
         
-
 
         if ($the_query->have_posts()) :
             while ($the_query->have_posts()) : $the_query->the_post();
@@ -126,6 +114,7 @@ get_header("4") ?>
 
         ?>
     </div>
+</div>
     <!-- </div>
         </div>
         <div class="col-lg-4">
@@ -161,30 +150,44 @@ get_header("4") ?>
                         <img src="<?php bloginfo('template_directory'); ?>/images/product_EGRIP2x.jpg" width="290px" height="200px">
                     </div>
                     <h3 id="operationtitle-00">EGRIP</h3>
-                    <p id="operationcontents-00">EGRIPは当社が開発した工具です。生産ツールである【EGRIP】は、Eリング挿入・取外工具です。そのほか、様々な設計開発製造を行っております。いずれもこれまでの常識にとらわれない斬新な発想による製品です。</p>
+                    <p id="operationcontents-00">EGRIPは当社が開発したEリング挿入・取外工具です。EGRIPは不良率の低減、作業効率の向上、作業者の疲労軽減を同時に達成することを目指し、100以上のプロトタイプを製作し開発された新機構のEリング挿入・取外工具です。EGRIPセッターの使い方説明動画をご覧ください。</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="col-12-sm ml-3">
                     <div class="imgWrap">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/-EGRIP-p-500.jpeg" width="290px" height="200px">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/GMATIC.jpg" width="290px" height="200px">
                     </div>
                     <h3 id="operationtitle-01"> GMATIC</h3>
-                    <p id="operationcontents-01">GMATICは当社が開発した工具です。
-                        Eリング挿入・取外工具【EGRIP】などの生産ツール、【GMATIC】などの高強度プラスティック製品など様々な設計開発製造を行っております。いずれもこれまでの常識にとらわれない斬新な発想による製品です。またSMTライン用の基板ローダー/アンローダー装置や樹脂成型材料の自動ローディング装置、自動サンドブラスト装置など社内自動化で培ったノウハウを製品化しております。</p>
+                    <p id="operationcontents-01">GMATICは高強度プラスティック製の床マット商品です。30mmφ圧子径による平均最大荷重は1000kgf。その圧倒的な強度だけでなく、耐油性、耐水性、耐薬品性、集塵性、高い拡張性を同時に持ち、クリーンルーム、倉庫やガレージ、水回りなど思いつくままの使用が可能です。</p>
                 </div>
             </div>
             <div class="col-lg-4">
             <div class="col-12-sm ml-3">
-                <img src="<?php bloginfo('template_directory'); ?>/images/product_trans2x-p-800.jpeg" width="290px" height="200px">
+            <div class="imgWrap">
+                <img src="<?php bloginfo('template_directory'); ?>/images/etc.jpg" width="290px" height="200px">
+                </div>
                 <h3 id="operationtitle-02">装置・治具</h3>
-                <p id="operationcontents-02"></p>
+                <p id="operationcontents-02">SMTライン用の基板のローダー・アンローダー装置や基板の自動転回装置、自動搬送ロボット、樹脂成型材料の自動ローディング装置、自動サンドブラスト装置、各種半自動組立治具など社内の生産効率・品質の向上を達成してきた自動化技術やノウハウをお客様の仕様に合わせ製品化しております。</p>
             </div>
         </div>
 
 
         </div>
     </div>
+    <div class="cotainer" id="companybox04">
+        <h3 class="mt-2 mb-5 text-center">EGRIP動画</h3>
+        <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4 wow fadeIn text-center">
+                <div class="embed-responsive embed-responsive-16by9 wow fadeInRight">
+                    <iframe class="embed-responsive-item" src="https://youtube.com/embed/jLq82Gzdun4"
+                    allowfullscreen></iframe>
+                </div>
+        </div>
+        <div class="col-lg-4"></div>
+        </div>
+        </div>
 
         <div class="container mt-5 mb-5" id="bigbox-02">
             <div class="row">
@@ -204,7 +207,7 @@ get_header("4") ?>
                 <div class="col-lg-4">
                     <div class="col-12-sm ml-3">
                         <div class="imgWrap">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/bankinequip-p-500.jpeg" width="290px" height="200px">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/bankinequ.jpg" width="290px" height="200px">
                         </div>
                         <h3 id="operationtitle-00">板金加工機設備</h3>
                         <p id="operationcontents-00">アマダ社製タレットパンチプレス：３台<br />
@@ -214,7 +217,9 @@ get_header("4") ?>
                             電元社トーア社製スポット溶接機：２台<br />
                             サンドブラストブース：３台<br />
                             TIG溶接機：２台<br />
-                            MIG溶接機：２台<br /></p>
+                            MIG溶接機：２台<br />
+                            CNCブラザータッピングセンター：１２台<br/>
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -233,7 +238,7 @@ get_header("4") ?>
                 <div class="col-lg-4">
                     <div class="col-12-sm ml-3">
                         <div class="imgWrap">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/iequip-p-500.jpeg" width="290px" height="200px">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/kumitate.jpg" width="290px" height="200px">
                         </div>
                         <h3 id="operationtitle-02">実装組立設備</h3>
                         <p id="operationcontents-02">2SMT実装ライン：2ライン <br />(Juki,Panasonic,Yamaha,Tamura)<br />
@@ -246,7 +251,7 @@ get_header("4") ?>
                             シグナルジェネレーター：２０台<br />
                             オシロスコープ：９台<br />
                             Keyence社製レーザーマーカー：２台<br />
-                            武蔵エンジニアリング社製ディスペンサーロボット：４台</p>
+                            武蔵エンジ社製ディスペンサーロボット：４台</p>
                     </div>
                 </div>
 
@@ -289,7 +294,7 @@ get_header("4") ?>
                         <h3 id="operationtitle-02">金型製造修理設備</h3>
                         <p id="operationcontents-02">
                             ワイヤーカット放電加工機<br>
-                            （三菱ファナック）：２台<br>
+                            （三菱・ファナック）：２台<br>
                             放電加工機・細穴放電加工機<br>
                             （三菱・ソデック）：３台<br>
                             レーザー溶接機（１００W）：３台<br>

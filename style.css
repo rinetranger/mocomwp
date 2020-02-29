@@ -173,6 +173,40 @@ li{
     line-height: 15px;
 }
 
+#cardim:hover{
+  user-select: none;
+  opacity: 1 !important;
+}
+
+#moji{
+  color: #ACB6E5;
+  background:linear-gradient(0deg, #ACB6E5, #86FDE8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  right: 50px;
+  bottom: 0;  
+}
+#moji1{
+  color: #5761f1;
+  position: absolute;
+  right: 50px;
+  bottom: 0;  
+}
+
+#title100{
+  font-weight:bold;
+}
+#title101{
+  font-weight:bold;
+}
+#title102{
+  font-weight:bold;
+}
+
+
+
+
 #pname-00{
     margin-top:40px;
     width:320px;
@@ -417,6 +451,10 @@ li{
 }
 #companybox03{
     border-bottom: 1px solid #b6b6b6;
+}   
+#companybox04{
+    border-bottom: 1px solid #b6b6b6;
+    padding:30px;
     
 }
 #box002{
@@ -778,7 +816,9 @@ textarea{
   border-color: blue;
   color:blue;
 }
-
+.list-group{
+  text-align: center;
+}
 
 
 
@@ -809,13 +849,13 @@ textarea{
     display:none;
     cursor: pointer;
     user-select: none;
-}
+  }
 
     .article-content h1 {
       font-size: 1.6rem;
     }
    
-    .article-content h2 {　
+    .article-content h2 {
       font-size: 1.4rem;
     }
    
@@ -828,20 +868,19 @@ textarea{
     }
 
     #mainimagesm{
-       background-image: url(./images/woman.jpg);
-       background-size: 200% auto;
+        background-image: url(./images/woman.jpg);
+       background-size: 230% auto;
        background-position:right bottom;
     }
 
-
-
-
-
-
-
-
+    #moji{
+      color: white;
+      position: absolute;
+      right: 50px;
+      bottom: 0 !important;  
+    }
     
-}
+  }
 @media only screen and (min-width: 600px){
   #mainimagesm{
     background-image: url(./images/woman.jpg);
@@ -850,3 +889,4 @@ textarea{
  }
 
 }
+

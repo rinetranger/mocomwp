@@ -32,7 +32,6 @@
         <h7 id="footersub-003" class="mb-5"><a href="page-info" id="footersub-00">企業情報</a></h7>
         <ul class="list-unstyled text-small">
           <li class="mt-2"><a class="text-muted" href="page-info#box001">社長メッセージ</a></li>
-          <li class="mt-2"><a class="text-muted" href="page-info#box002">経営理念</a></li>
           <li class="mt-2"><a class="text-muted" href="page-info#box005">会社概要</a></li>
           <li class="mt-2"><a class="text-muted" href="page-info#box006">沿革</a></li>
           <li class="mt-2"><a class="text-muted" href="page-info#box007">主要取引先</a></li>

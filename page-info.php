@@ -5,6 +5,7 @@ Template Name: 企業情報
 get_header("3") ?>
 <i class="fas fa-angle-double-up" id="back" onclick="back()"></i>
 <div id="submain-00" class="countainer w-100 m-0 p-0">
+<h5 class="h5 text-white fadeinmain3 ml-5 pt-3" id="moji1" style="display: none">Turn Your Vision into Reality</h5>
   <h1 id="submainp-00" class="fadeinmain1" style="display:none;">企業情報</h1>
   <h5 id="submainp-04" class="fadeinmain2" style="display:none;">CORPORATE INFORMATION</h5>
 </div>
@@ -18,6 +19,7 @@ get_header("3") ?>
 <script type="text/javascript">
   $('.fadeinmain1').fadeIn(2000);
   $('.fadeinmain2').fadeIn(3000);
+  $('.fadeinmain3').fadeIn(3000);
 </script>
 <div class="container justify-content-lg-center" id="name-00">
 
@@ -25,20 +27,20 @@ get_header("3") ?>
 
   <section>
     <ul class="list-group list-group-horizontal-lg mt-4 w-100">
-      <div class="row">
+      <div class="row justify-content-center" >
+        <div class="col-sm-6  col-lg-3">
+
+          <a class="btn peach-gradient list-group-item" id="boxitem-00" onclick="move1()">メッセージ</a>
+        </div>
         <div class="col-sm-6 col-lg-3">
 
-          <a class="btn purple-gradient list-group-item m-2" id="boxitem-00" onclick="move1()">メッセージ</a>
+          <a class="btn peach-gradient list-group-item" id="boxitem-01" onclick="move3()">会社概要</a>
         </div>
         <div class="col-sm-6 col-lg-3">
-
-          <a class="btn purple-gradient list-group-item m-2" id="boxitem-01" onclick="move3()">会社概要</a>
+          <a class="btn peach-gradient list-group-item" id="boxitem-02" onclick="move4()">沿革</a>
         </div>
         <div class="col-sm-6 col-lg-3">
-          <a class="btn purple-gradient list-group-item m-2" id="boxitem-02" onclick="move4()">沿革</a>
-        </div>
-        <div class="col-sm-6 col-lg-3">
-          <a class="btn purple-gradient list-group-item m-2" id="boxitem-02" onclick="move5()">主要取引先</a>
+          <a class="btn peach-gradient list-group-item" id="boxitem-02" onclick="move5()">主要取引先</a>
 
         </div>
       </div>
@@ -52,7 +54,7 @@ get_header("3") ?>
     <div id="box001" class="col-lg">
       <div class="row-sm">
         <div id="border-01">
-          <h1 id="title01">トップメッセージ</h1>
+          <h1 id="title01">社長メッセージ</h1>
           <h6 id="subtitle01">TOP MESSAGE</h6>
         </div>
       </div>
@@ -144,7 +146,7 @@ get_header("3") ?>
 <div class="container mt-5">
   <div class="row justify-content-center mt-5">
     <div id="main" class="col-9">
-      <img src="<?php bloginfo('template_directory'); ?>/images/yolanda-sun-rEnH56DV2vQ-unsplash-p-500.jpeg" class="m-1 w-100">
+      <img src="<?php bloginfo('template_directory'); ?>/images/building.jpg" class="m-1 w-100">
     </div>
   </div>
 </div>
@@ -398,7 +400,7 @@ get_header("3") ?>
     </div>
     <div class="col-lg-4">
       <div>
-        <h6 id="pname-00">飯田電機工事業 (株)</h6>
+        <h6 id="pname-00">飯田電機工業 (株)</h6>
       </div>
       <div>
         <h6 id="pname-00">NECプラットフォームズ (株)</h6>
