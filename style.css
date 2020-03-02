@@ -87,7 +87,10 @@ header{
 }
 
 #ulsec{
-  width:100%;
+  /* width:100%; */
+}
+#mailbt{
+  width:150px !important;
 }
 
 #bigbox-01{
@@ -868,9 +871,9 @@ textarea{
     }
 
     #mainimagesm{
-        background-image: url(./images/woman.jpg);
-       background-size: 230% auto;
-       background-position:right bottom;
+      background-image: url(./images/woman.jpg);
+      background-size: 220% auto;
+      background-position:right bottom;
     }
 
     #moji{

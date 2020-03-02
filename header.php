@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/mdb.min.css">
 
   <!-- Your custom styles (optional) -->
-  <link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet">
+  <link href="<?php echo get_stylesheet_uri(); ?>?" rel="stylesheet">
 
 </head>
 
@@ -63,10 +63,6 @@
             </div>
           </li>
 
-          <!-- <li class="w-15 nav-item">
-      <a class="nav-link w-100 m-1" id="links" href="page-product">製品・設備</a>
-      </li> -->
-
           <li class="w-20 nav-item dropdown">
             <a class="nav-link w-100 m-1 dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">製品設備</a>
             <div class="dropdown-menu dropdown-primary p-2" aria-labelledby="navbarDropdownMenuLink">
@@ -76,7 +72,7 @@
             </div>
           </li>
 
-          <button type="button" class="btn btn-primary ml-1" onclick="location.href='contact'">
+          <button type="button" class="btn btn-primary ml-1" id="mailbt" onclick="location.href='contact'">
             お問い合わせ
           </button>
         </ul>

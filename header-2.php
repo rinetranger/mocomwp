@@ -83,7 +83,7 @@
         </div>  
       </li>
 
-      <button type="button" class="btn btn-primary ml-1" onclick="location.href='contact'">
+      <button type="button" class="btn btn-primary ml-1" id="mailbt" onclick="location.href='contact'">
         お問い合わせ
       </button>
       </ul>
