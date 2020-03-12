@@ -43,7 +43,7 @@
       </div>
       <div id="box002" class="col-lg w-100 mt-3">
         <div class="row-sm">
-          <h4 id=title02>多品種少量をメインとする<br />
+          <h4 id="title02">多品種少量をメインとする<br />
             一貫したソリューション体制</h4>
           <p id="detail001" class="mt-5 mb-5">設計、調達から製造、解析評価、設備開発まで
             インテグレーションの豊富な経験を活かし、お客様の様々なご要望に対応致します。</p>
@@ -168,7 +168,7 @@
               <h7 class="white-text">製品・設備</h7>
               <h5 class="card-title pt-2" id="title100">委託製品</h5>
               <p></p>
-              <a class="btn btn-primary blue-gradient" href="page-product#box002"><i class="fas fa-clone left"></i>　詳細へ</a>
+              <a class="btn btn-primary blue-gradient" href="page-product#box001"><i class="fas fa-clone left"></i>　詳細へ</a>
             </div>
           </div>
         </div>
@@ -180,7 +180,7 @@
               <h7 class="white-text">製品・設備</h7>
               <h5 class="card-title pt-2" id="title101">オリジナル製品</h5>
               <p></p>
-              <a class="btn btn-primary blue-gradient" href="page-product#box002"><i class="fas fa-clone left"></i>　詳細へ</a>
+              <a class="btn btn-primary blue-gradient" href="page-product#companybox00"><i class="fas fa-clone left"></i>　詳細へ</a>
             </div>
           </div>
         </div>
