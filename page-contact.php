@@ -11,7 +11,7 @@ get_header("5") ?>
 </div>
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href=".index.php">Home</a></li>
+    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
     <li class="breadcrumb-item active" aria-current="page">製品・設備</li>
   </ol>
 </nav>

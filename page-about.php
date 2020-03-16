@@ -13,7 +13,7 @@ Template Name: 事業内容
     </div>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href=".index.php">Home</a></li>
+        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
         <li class="breadcrumb-item active" aria-current="page">事業内容</li>
       </ol>
     </nav>
