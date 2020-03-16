@@ -26,8 +26,8 @@ get_header("4") ?>
     
             <ul class="w-100">
             <div class="row justify-content-center">
-                    <a class="col-lg-4 col-sm-12 btn peach-gradient m-2 w-30" id="boxitem-00" onclick="move1()">製品情報</a>
-                    <a class="col-lg-4 col-sm-12 btn peach-gradient m-2 w-30" id="boxitem-01" onclick="move2()">設備情報</a>
+                    <a class="col-lg-4 col-sm-12 btn peach-gradient w-30" id="boxitem-00" onclick="move1()">製品情報</a>
+                    <a class="col-lg-4 col-sm-12 btn peach-gradient w-30" id="boxitem-01" onclick="move2()">設備情報</a>
             </div>
             </ul>
     </div>

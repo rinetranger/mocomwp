@@ -21,9 +21,9 @@ get_header("3") ?>
   $('.fadeinmain2').fadeIn(3000);
   $('.fadeinmain3').fadeIn(3000);
 </script>
-<div class="container" id="name-00">
-    <ul class="mt-4 w-100">
-      <div class="row mt-5 w-100 justify-content-center">
+<div class="container mt-5" id="name-00">
+    <ul class="w-100">
+      <div class="row  w-100 justify-content-center">
 
           <a class="col-sm-6 col-lg-4 btn peach-gradient w-25" id="boxitem-00" onclick="move1()">メッセージ</a>
 
