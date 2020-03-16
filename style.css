@@ -209,7 +209,6 @@ li{
 
 
 
-
 #pname-00{
     margin-top:40px;
     width:320px;
@@ -293,7 +292,8 @@ li{
 #name-00{
     width:100%;
     display: flex;
-
+    display: -ms-flexbox;
+    -ms-flex-pack: justify;
 
 }
 #box-002{
@@ -316,6 +316,7 @@ li{
     text-align: center;
     padding-left: 1px;
     padding-right: 1px
+    
     
 }
 #boxitem-02{
@@ -893,3 +894,7 @@ textarea{
 
 }
 
+#cssie00{
+  display: -ms-flexbox;
+  -ms-flex-pack: justify;
+}

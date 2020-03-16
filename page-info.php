@@ -21,31 +21,20 @@ get_header("3") ?>
   $('.fadeinmain2').fadeIn(3000);
   $('.fadeinmain3').fadeIn(3000);
 </script>
-<div class="container justify-content-lg-center" id="name-00">
+<div class="container" id="name-00">
+    <ul class="mt-4 w-100">
+      <div class="row mt-5 w-100 justify-content-center">
 
+          <a class="col-sm-6 col-lg-4 btn peach-gradient w-25" id="boxitem-00" onclick="move1()">メッセージ</a>
 
+          <a class="col-sm-6 col-lg-4 btn peach-gradient w-25" id="boxitem-01" onclick="move3()">会社概要</a>
+        
+          <a class="col-sm-6 col-lg-4 btn peach-gradient w-25" id="boxitem-02" onclick="move4()">沿革</a>
+        
+          <a class="col-sm-6 col-lg-4 btn peach-gradient w-25" id="boxitem-02" onclick="move5()">主要取引先</a>
 
-  <section>
-    <ul class="list-group list-group-horizontal-lg mt-4 w-100">
-      <div class="row justify-content-center" >
-        <div class="col-sm-6  col-lg-3">
-
-          <a class="btn peach-gradient list-group-item" id="boxitem-00" onclick="move1()">メッセージ</a>
-        </div>
-        <div class="col-sm-6 col-lg-3">
-
-          <a class="btn peach-gradient list-group-item" id="boxitem-01" onclick="move3()">会社概要</a>
-        </div>
-        <div class="col-sm-6 col-lg-3">
-          <a class="btn peach-gradient list-group-item" id="boxitem-02" onclick="move4()">沿革</a>
-        </div>
-        <div class="col-sm-6 col-lg-3">
-          <a class="btn peach-gradient list-group-item" id="boxitem-02" onclick="move5()">主要取引先</a>
-
-        </div>
       </div>
     </ul>
-  </section>
 </div>
 
 <i class="fas fa-angle-double-up" id="back" onclick="back()"></i>
@@ -75,7 +64,7 @@ get_header("3") ?>
         <p class="mt-5">
           現在、世界中の企業の栄枯盛衰に見られるように、昨日の成功が明日の成功を約束してくれるわけではありません。時代の変化に迅速に対応することのできる企業だけが生き残り、当面の繁栄を享受できます。そのような厳しいビジネス環境のなかでも、時代の変化に対応しながら、変わらず世の中に貢献できる企業を目指し、MOCOMグループでは3つの方針を掲げ、事業活動を行っております。
         </p>
-        <h5 id="match-00" class="mt-5">1. 製品の品質を第一に考え情熱を傾ける。</h5">
+        <h5 id="match-00" class="mt-5">1. 製品の品質を第一に考え情熱を傾ける。</h5>
           <h5 id="match-00">Devote all our Heart into Product Quality.</h5>
           <h5 id="match-00">2. お客様の生活を便利でよりよいものにする。</h5>
 
@@ -87,7 +76,7 @@ get_header("3") ?>
           <h5 id="match-00">Build up our Happiness by our Good Work.</h5>
           <p class="mt-5">
             「幸せ」には金銭的なもの、信頼関係のある社風、学習・成長の機会がある、個性が認められなどの意味を込めております。この方針は「幸せ」は会社に与えられるものではなく、各社員が会社全体を考えながら、自分の責務を遂行するために挑戦し、最善の仕事をした結果獲得できるものであるという考え方を示しており、前記２つの方針を遂行するための根本方針となっています。
-          </p class="mt-5">
+          </p>
 
           <p class="mb-5">
             私たちの提供する製品・サービスは、個性ある社員一人一人の努力の結集です。これからもMOCOMグループ各社員が３つの方針に基づいて「仕事の意義・目的」を常に意識し「お客様が望んでいる製品・サービス」の提供につながる貴重な価値を発見できるよう努めて参ります。今後とも末永くお付き合いくださいますようお願い申し上げます。

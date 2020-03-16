@@ -26,31 +26,19 @@ Template Name: 事業内容
   
       </script>
     <i class="fas fa-angle-double-up" id="back" onclick="back()"></i>
-    <div class="container mt-5 mb-5 justify-content-center" id="name-00">
+    <div class="container mt-5 mb-5" id="name-00">
+     
 
-
-      <div class="row">
-        <section>
-          <ul class="list-group list-group-horizontal-lg w-100">
-
-            <div class="col-lg-4 col-sm-12">
-              
-              <a class="btn peach-gradient list-group-item m-2" id="boxitem-00" onclick="move1()"><i class="fas fa-home"></i> 株式会社モコム</a>
-            </div>
-
-            <div class="col-lg-4 col-sm-12">
-              
-              <a class="btn peach-gradient list-group-item m-2" id="boxitem-01" onclick="move2()"><i class="fas fa-home"></i> 株式会社PDP</a>
-            </div>
-
-            <div class="col-lg-4 col-sm-12">
+          <ul class="w-100 mr-5">
+            <div class="row justify-content-center">
+              <a class="col-lg-3 col-sm-11 btn peach-gradient m-2 mr-2 w-100" id="boxitem-00" onclick="move1()"><i class="fas fa-home"></i> 株式会社モコム</a>
+            
+              <a class="col-lg-3 col-sm-11 btn peach-gradient m-2 mr-2 w-100" id="boxitem-01" onclick="move2()"><i class="fas fa-home"></i> 株式会社PDP</a>
              
-              <a class="btn peach-gradient list-group-item m-2" id="boxitem-10" onclick="move3()"><i class="fas fa-home"></i> GLOBAL MOCOM TRSNDCENDING INC.</a>
+              <a class="col-lg-3 col-sm-11 btn peach-gradient m-2 mr-2 w-100" id="boxitem-10" onclick="move3()"><i class="fas fa-home"></i> GLOBAL MOCOM TRSNDCENDING INC.</a>
             </div>
-
           </ul>
-        </section>
-      </div>
+      
 
     </div>
 

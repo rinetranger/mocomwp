@@ -22,24 +22,14 @@ get_header("4") ?>
 </script>
 
 
-<div class="container  w-100 mt-5 mb-5">
-    <div class="row justify-content-center">
-        <section>
-            <ul class="list-group list-group-horizontal-lg w-100">
-
-                <div class="col-lg-6 col-sm-12">
-
-                    <a class="btn peach-gradient list-group-item m-2" id="boxitem-00" onclick="move1()">製品情報</a>
-                </div>
-
-                <div class="col-lg-6 col-sm-12">
-
-                    <a class="btn peach-gradient list-group-item m-2" id="boxitem-01" onclick="move2()">設備情報</a>
-
-                </div>
-
+<div class="container w-100 mt-5 mb-5" id="name-00">
+    
+            <ul class="w-100">
+            <div class="row justify-content-center">
+                    <a class="col-lg-4 col-sm-12 btn peach-gradient m-2 w-30" id="boxitem-00" onclick="move1()">製品情報</a>
+                    <a class="col-lg-4 col-sm-12 btn peach-gradient m-2 w-30" id="boxitem-01" onclick="move2()">設備情報</a>
+            </div>
             </ul>
-        </section>
     </div>
 </div>
 
@@ -303,21 +293,39 @@ get_header("4") ?>
                         </p>
                     </div>
                 </div>
-                <div class="row">
+            </div>
+            <div class="row">
 
                     <div class="col-lg-12">
                         <div class="col-12-sm ml-4">
                             <div class="imgWrap">
                                 <img src="<?php bloginfo('template_directory'); ?>/images/mequip-p-500.jpeg" width="290px" height="200px">
                             </div>
-                            <h3 id="operationtitle-01">測定機器</h3>
-                            <p id="operationcontents-00">ミツトヨ社製３次元測定器<br />
+                            <h3 class="w-100" id="operationtitle-01">測定機器</h3>
+                            <p clas="w-100" id="operationcontents-00">ミツトヨ社製３次元測定器<br />
                                 ミツトヨ社製ビジョンスコープ：１台<br />
                                 ニコン社製投影機：１台</p>
                         </div>
                     </div>
-                </div>
+                    <div class="col-lg-12">
+                        <div class="col-12-sm ml-4">
+                            <div class="imgWrap">
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                   
 
+                    <div class="col-lg-12">
+                        <div class="col-12-sm ml-4">
+                            <div class="imgWrap">
+   
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
