@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title><?php bloginfo('name'); ?></title>
+  <meta name="description" content="株式会社モコムは、プリント基板設計、調達から製造、解析評価、設備開発、樹脂成型,板金加工,金型製作,塗装印刷まで インテグレーションの豊富な経験を活かし、お客様の様々なご要望に対応致します。お問い合わせはTEL : 044-933-1511　株式会社モコムまで">
+  <meta name="Keywords" contnet="プリント基板設計,基板実装,樹脂成型,板金加工,金型製作,塗装印刷,多品種少量品">
+  <title><?php bloginfo('name'); ?>|事業内容</title>
   <!-- Font Awesome -->
   <link rel="shortcut icon" href="http://rinkishi.sakura.ne.jp/sharemuse/wp-content/uploads/2020/02/favicon.png">
   <script
